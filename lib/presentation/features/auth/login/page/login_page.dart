@@ -102,6 +102,7 @@ class _LoginPageState extends State<LoginPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  const SizedBox(height: 32),
                   const VillageIllustration(),
                   const SizedBox(height: 32),
                   _buildGreeting(),
@@ -115,11 +116,11 @@ class _LoginPageState extends State<LoginPage> {
                     onLogin: _login,
                   ),
                   const SizedBox(height: 16),
-                  _buildDivider(),
+                  // _buildDivider(),
                   const SizedBox(height: 16),
-                  const SocialLoginButtons(),
+                  // const SocialLoginButtons(),
                   const SizedBox(height: 24),
-                  _buildRegisterLink(),
+                  // _buildRegisterLink(),
                 ],
               ),
             ),
@@ -175,40 +176,40 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  Widget _buildRegisterLink() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Text(
-          'Belum memiliki akun? ',
-          style: TextStyle(
-            fontSize: 14,
-            color: AppTheme.textSecondaryColor,
-          ),
-        ),
-        TextButton(
-          onPressed: () {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('Register page coming soon'),
-              ),
-            );
-          },
-          style: TextButton.styleFrom(
-            padding: EdgeInsets.zero,
-            minimumSize: const Size(0, 0),
-            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-          ),
-          child: const Text(
-            'DAFTAR SEKARANG',
-            style: TextStyle(
-              fontSize: 14,
-              fontWeight: FontWeight.w600,
-              color: AppTheme.primaryColor,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
+  // Widget _buildRegisterLink() {
+  //   return Row(
+  //     mainAxisAlignment: MainAxisAlignment.center,
+  //     children: [
+  //       Text(
+  //         'Belum memiliki akun? ',
+  //         style: TextStyle(
+  //           fontSize: 14,
+  //           color: AppTheme.textSecondaryColor,
+  //         ),
+  //       ),
+  //       TextButton(
+  //         onPressed: () {
+  //           ScaffoldMessenger.of(context).showSnackBar(
+  //             const SnackBar(
+  //               content: Text('Register page coming soon'),
+  //             ),
+  //           );
+  //         },
+  //         style: TextButton.styleFrom(
+  //           padding: EdgeInsets.zero,
+  //           minimumSize: const Size(0, 0),
+  //           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+  //         ),
+  //         child: const Text(
+  //           'DAFTAR SEKARANG',
+  //           style: TextStyle(
+  //             fontSize: 14,
+  //             fontWeight: FontWeight.w600,
+  //             color: AppTheme.primaryColor,
+  //           ),
+  //         ),
+  //       ),
+  //     ],
+  //   );
+  // }
 }

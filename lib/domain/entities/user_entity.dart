@@ -11,7 +11,7 @@ class UserEntity extends Equatable {
   final String jenisKelamin;
   final String? photo;
   final String? tempatLahir;
-  final DateTime? tanggalLahir;
+  final String? tanggalLahir;
   final String? noKk;
   final String? statusHubungan;
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../app/theme/app_theme.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import '../features/home/home_page.dart';
 import '../features/surat/surat_page.dart';
 import '../features/profile/profile_page.dart';
@@ -34,27 +34,34 @@ class _RootPageState extends State<RootPage> {
             _currentIndex = index;
           });
         },
-        selectedItemColor: AppTheme.primaryColor,
-        unselectedItemColor: AppTheme.textSecondaryColor,
         type: BottomNavigationBarType.fixed,
-        items: const [
+        items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
-            activeIcon: Icon(Icons.home),
+            icon: _buildNavIcon('resources/icons/beranda_inactive.svg'),
+            activeIcon: _buildNavIcon('resources/icons/beranda_active.svg'),
             label: 'Beranda',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.description_outlined),
-            activeIcon: Icon(Icons.description),
+            icon: _buildNavIcon('resources/icons/aktivitas_inactive.svg'),
+            activeIcon: _buildNavIcon('resources/icons/aktivitas_active.svg'),
             label: 'Aktivitas',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person_outline),
-            activeIcon: Icon(Icons.person),
+            icon: _buildNavIcon('resources/icons/profil_inactive.svg'),
+            activeIcon: _buildNavIcon('resources/icons/profil_active.svg'),
             label: 'Profil',
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildNavIcon(String assetPath) {
+    return SvgPicture.asset(
+      assetPath,
+      width: 24,
+      height: 24,
+      // Tidak ada colorFilter - gunakan warna asli dari SVG
     );
   }
 }

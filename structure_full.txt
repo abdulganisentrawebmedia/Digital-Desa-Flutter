@@ -51,6 +51,1763 @@
 │   ├── gradlew.bat
 │   ├── local.properties
 │   └── settings.gradle.kts
+├── build
+│   ├── 59fa40d77e555a25094882c8d5eab26e
+│   │   ├── _composite.stamp
+│   │   ├── gen_dart_plugin_registrant.stamp
+│   │   └── gen_localizations.stamp
+│   ├── 7aafc3f8ae75b3be63a62efd7c59e7c2.cache.dill.track.dill
+│   ├── app
+│   │   ├── generated
+│   │   │   ├── ap_generated_sources
+│   │   │   │   └── debug
+│   │   │   │       └── out
+│   │   │   └── res
+│   │   │       ├── pngs
+│   │   │       │   └── debug
+│   │   │       └── resValues
+│   │   │           └── debug
+│   │   ├── intermediates
+│   │   │   ├── aar_metadata_check
+│   │   │   │   └── debug
+│   │   │   │       └── checkDebugAarMetadata
+│   │   │   ├── annotation_processor_list
+│   │   │   │   └── debug
+│   │   │   │       └── javaPreCompileDebug
+│   │   │   │           └── annotationProcessors.json
+│   │   │   ├── apk_ide_redirect_file
+│   │   │   │   └── debug
+│   │   │   │       └── createDebugApkListingFileRedirect
+│   │   │   │           └── redirect.txt
+│   │   │   ├── app_metadata
+│   │   │   │   └── debug
+│   │   │   │       └── writeDebugAppMetadata
+│   │   │   │           └── app-metadata.properties
+│   │   │   ├── assets
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugAssets
+│   │   │   │           └── flutter_assets
+│   │   │   │               ├── AssetManifest.bin
+│   │   │   │               ├── AssetManifest.json
+│   │   │   │               ├── FontManifest.json
+│   │   │   │               ├── NOTICES.Z
+│   │   │   │               ├── NativeAssetsManifest.json
+│   │   │   │               ├── fonts
+│   │   │   │               │   └── MaterialIcons-Regular.otf
+│   │   │   │               ├── isolate_snapshot_data
+│   │   │   │               ├── kernel_blob.bin
+│   │   │   │               ├── packages
+│   │   │   │               │   └── cupertino_icons
+│   │   │   │               │       └── assets
+│   │   │   │               ├── shaders
+│   │   │   │               │   └── ink_sparkle.frag
+│   │   │   │               └── vm_snapshot_data
+│   │   │   ├── compatible_screen_manifest
+│   │   │   │   └── debug
+│   │   │   │       └── createDebugCompatibleScreenManifests
+│   │   │   │           └── output-metadata.json
+│   │   │   ├── compile_and_runtime_not_namespaced_r_class_jar
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugResources
+│   │   │   │           └── R.jar
+│   │   │   ├── compressed_assets
+│   │   │   │   └── debug
+│   │   │   │       └── compressDebugAssets
+│   │   │   │           └── out
+│   │   │   │               └── assets
+│   │   │   │                   └── flutter_assets
+│   │   │   │                       ├── AssetManifest.bin.jar
+│   │   │   │                       ├── AssetManifest.json.jar
+│   │   │   │                       ├── FontManifest.json.jar
+│   │   │   │                       ├── NOTICES.Z.jar
+│   │   │   │                       ├── NativeAssetsManifest.json.jar
+│   │   │   │                       ├── fonts
+│   │   │   │                       ├── isolate_snapshot_data.jar
+│   │   │   │                       ├── kernel_blob.bin.jar
+│   │   │   │                       ├── packages
+│   │   │   │                       ├── shaders
+│   │   │   │                       └── vm_snapshot_data.jar
+│   │   │   ├── cxx
+│   │   │   │   └── debug
+│   │   │   │       └── 5s3z5x1j
+│   │   │   │           ├── logs
+│   │   │   │           │   ├── arm64-v8a
+│   │   │   │           │   │   ├── build_model.json
+│   │   │   │           │   │   ├── configure_command
+│   │   │   │           │   │   ├── configure_stderr.txt
+│   │   │   │           │   │   ├── configure_stdout.txt
+│   │   │   │           │   │   ├── generate_cxx_metadata_215_timing.txt
+│   │   │   │           │   │   └── metadata_generation_record.json
+│   │   │   │           │   ├── armeabi-v7a
+│   │   │   │           │   │   ├── build_model.json
+│   │   │   │           │   │   ├── configure_command
+│   │   │   │           │   │   ├── configure_stderr.txt
+│   │   │   │           │   │   ├── configure_stdout.txt
+│   │   │   │           │   │   ├── generate_cxx_metadata_216_timing.txt
+│   │   │   │           │   │   └── metadata_generation_record.json
+│   │   │   │           │   └── x86_64
+│   │   │   │           │       ├── build_model.json
+│   │   │   │           │       ├── configure_command
+│   │   │   │           │       ├── configure_stderr.txt
+│   │   │   │           │       ├── configure_stdout.txt
+│   │   │   │           │       ├── generate_cxx_metadata_209_timing.txt
+│   │   │   │           │       └── metadata_generation_record.json
+│   │   │   │           └── obj
+│   │   │   │               ├── arm64-v8a
+│   │   │   │               ├── armeabi-v7a
+│   │   │   │               └── x86_64
+│   │   │   ├── data_binding_layout_info_type_merge
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugResources
+│   │   │   │           └── out
+│   │   │   ├── data_binding_layout_info_type_package
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   │           └── out
+│   │   │   ├── desugar_graph
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   │               ├── currentProject
+│   │   │   │               │   ├── dirs_bucket_0
+│   │   │   │               │   │   └── graph.bin
+│   │   │   │               │   ├── dirs_bucket_1
+│   │   │   │               │   │   └── graph.bin
+│   │   │   │               │   ├── dirs_bucket_2
+│   │   │   │               │   │   └── graph.bin
+│   │   │   │               │   ├── dirs_bucket_3
+│   │   │   │               │   │   └── graph.bin
+│   │   │   │               │   ├── jar_8646aad3557c2624701f63559f3743ed9b24bff6a134c5c64d30d0bddf3643da_bucket_0
+│   │   │   │               │   │   └── graph.bin
+│   │   │   │               │   ├── jar_8646aad3557c2624701f63559f3743ed9b24bff6a134c5c64d30d0bddf3643da_bucket_1
+│   │   │   │               │   │   └── graph.bin
+│   │   │   │               │   ├── jar_8646aad3557c2624701f63559f3743ed9b24bff6a134c5c64d30d0bddf3643da_bucket_2
+│   │   │   │               │   │   └── graph.bin
+│   │   │   │               │   └── jar_8646aad3557c2624701f63559f3743ed9b24bff6a134c5c64d30d0bddf3643da_bucket_3
+│   │   │   │               │       └── graph.bin
+│   │   │   │               ├── externalLibs
+│   │   │   │               ├── mixedScopes
+│   │   │   │               └── otherProjects
+│   │   │   ├── dex
+│   │   │   │   └── debug
+│   │   │   │       ├── mergeExtDexDebug
+│   │   │   │       │   ├── classes.dex
+│   │   │   │       │   └── classes2.dex
+│   │   │   │       ├── mergeLibDexDebug
+│   │   │   │       │   ├── 0
+│   │   │   │       │   ├── 1
+│   │   │   │       │   ├── 10
+│   │   │   │       │   ├── 11
+│   │   │   │       │   ├── 12
+│   │   │   │       │   ├── 13
+│   │   │   │       │   ├── 14
+│   │   │   │       │   ├── 15
+│   │   │   │       │   │   └── classes.dex
+│   │   │   │       │   ├── 2
+│   │   │   │       │   │   └── classes.dex
+│   │   │   │       │   ├── 3
+│   │   │   │       │   ├── 4
+│   │   │   │       │   ├── 5
+│   │   │   │       │   │   └── classes.dex
+│   │   │   │       │   ├── 6
+│   │   │   │       │   │   └── classes.dex
+│   │   │   │       │   ├── 7
+│   │   │   │       │   ├── 8
+│   │   │   │       │   └── 9
+│   │   │   │       └── mergeProjectDexDebug
+│   │   │   │           ├── 0
+│   │   │   │           │   └── classes.dex
+│   │   │   │           ├── 1
+│   │   │   │           │   └── classes.dex
+│   │   │   │           ├── 10
+│   │   │   │           ├── 11
+│   │   │   │           ├── 12
+│   │   │   │           │   └── classes.dex
+│   │   │   │           ├── 13
+│   │   │   │           ├── 14
+│   │   │   │           ├── 15
+│   │   │   │           ├── 2
+│   │   │   │           ├── 3
+│   │   │   │           ├── 4
+│   │   │   │           ├── 5
+│   │   │   │           ├── 6
+│   │   │   │           ├── 7
+│   │   │   │           ├── 8
+│   │   │   │           └── 9
+│   │   │   ├── dex_archive_input_jar_hashes
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   ├── dex_number_of_buckets_file
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   ├── duplicate_classes_check
+│   │   │   │   └── debug
+│   │   │   │       └── checkDebugDuplicateClasses
+│   │   │   ├── external_file_lib_dex_archives
+│   │   │   │   └── debug
+│   │   │   │       └── desugarDebugFileDependencies
+│   │   │   ├── external_libs_dex_archive
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   ├── external_libs_dex_archive_with_artifact_transforms
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   ├── flutter
+│   │   │   │   └── debug
+│   │   │   │       ├── flutter_assets
+│   │   │   │       │   ├── AssetManifest.bin
+│   │   │   │       │   ├── AssetManifest.json
+│   │   │   │       │   ├── FontManifest.json
+│   │   │   │       │   ├── NOTICES.Z
+│   │   │   │       │   ├── NativeAssetsManifest.json
+│   │   │   │       │   ├── fonts
+│   │   │   │       │   │   └── MaterialIcons-Regular.otf
+│   │   │   │       │   ├── isolate_snapshot_data
+│   │   │   │       │   ├── kernel_blob.bin
+│   │   │   │       │   ├── packages
+│   │   │   │       │   │   └── cupertino_icons
+│   │   │   │       │   │       └── assets
+│   │   │   │       │   │           └── CupertinoIcons.ttf
+│   │   │   │       │   ├── shaders
+│   │   │   │       │   │   └── ink_sparkle.frag
+│   │   │   │       │   └── vm_snapshot_data
+│   │   │   │       ├── flutter_build.d
+│   │   │   │       └── libs.jar
+│   │   │   ├── incremental
+│   │   │   │   ├── debug
+│   │   │   │   │   ├── mergeDebugResources
+│   │   │   │   │   │   ├── compile-file-map.properties
+│   │   │   │   │   │   ├── merged.dir
+│   │   │   │   │   │   │   ├── values
+│   │   │   │   │   │   │   │   └── values.xml
+│   │   │   │   │   │   │   ├── values-af
+│   │   │   │   │   │   │   │   └── values-af.xml
+│   │   │   │   │   │   │   ├── values-am
+│   │   │   │   │   │   │   │   └── values-am.xml
+│   │   │   │   │   │   │   ├── values-ar
+│   │   │   │   │   │   │   │   └── values-ar.xml
+│   │   │   │   │   │   │   ├── values-as
+│   │   │   │   │   │   │   │   └── values-as.xml
+│   │   │   │   │   │   │   ├── values-az
+│   │   │   │   │   │   │   │   └── values-az.xml
+│   │   │   │   │   │   │   ├── values-b+sr+Latn
+│   │   │   │   │   │   │   │   └── values-b+sr+Latn.xml
+│   │   │   │   │   │   │   ├── values-be
+│   │   │   │   │   │   │   │   └── values-be.xml
+│   │   │   │   │   │   │   ├── values-bg
+│   │   │   │   │   │   │   │   └── values-bg.xml
+│   │   │   │   │   │   │   ├── values-bn
+│   │   │   │   │   │   │   │   └── values-bn.xml
+│   │   │   │   │   │   │   ├── values-bs
+│   │   │   │   │   │   │   │   └── values-bs.xml
+│   │   │   │   │   │   │   ├── values-ca
+│   │   │   │   │   │   │   │   └── values-ca.xml
+│   │   │   │   │   │   │   ├── values-cs
+│   │   │   │   │   │   │   │   └── values-cs.xml
+│   │   │   │   │   │   │   ├── values-da
+│   │   │   │   │   │   │   │   └── values-da.xml
+│   │   │   │   │   │   │   ├── values-de
+│   │   │   │   │   │   │   │   └── values-de.xml
+│   │   │   │   │   │   │   ├── values-el
+│   │   │   │   │   │   │   │   └── values-el.xml
+│   │   │   │   │   │   │   ├── values-en-rAU
+│   │   │   │   │   │   │   │   └── values-en-rAU.xml
+│   │   │   │   │   │   │   ├── values-en-rCA
+│   │   │   │   │   │   │   │   └── values-en-rCA.xml
+│   │   │   │   │   │   │   ├── values-en-rGB
+│   │   │   │   │   │   │   │   └── values-en-rGB.xml
+│   │   │   │   │   │   │   ├── values-en-rIN
+│   │   │   │   │   │   │   │   └── values-en-rIN.xml
+│   │   │   │   │   │   │   ├── values-en-rXC
+│   │   │   │   │   │   │   │   └── values-en-rXC.xml
+│   │   │   │   │   │   │   ├── values-es
+│   │   │   │   │   │   │   │   └── values-es.xml
+│   │   │   │   │   │   │   ├── values-es-rUS
+│   │   │   │   │   │   │   │   └── values-es-rUS.xml
+│   │   │   │   │   │   │   ├── values-et
+│   │   │   │   │   │   │   │   └── values-et.xml
+│   │   │   │   │   │   │   ├── values-eu
+│   │   │   │   │   │   │   │   └── values-eu.xml
+│   │   │   │   │   │   │   ├── values-fa
+│   │   │   │   │   │   │   │   └── values-fa.xml
+│   │   │   │   │   │   │   ├── values-fi
+│   │   │   │   │   │   │   │   └── values-fi.xml
+│   │   │   │   │   │   │   ├── values-fr
+│   │   │   │   │   │   │   │   └── values-fr.xml
+│   │   │   │   │   │   │   ├── values-fr-rCA
+│   │   │   │   │   │   │   │   └── values-fr-rCA.xml
+│   │   │   │   │   │   │   ├── values-gl
+│   │   │   │   │   │   │   │   └── values-gl.xml
+│   │   │   │   │   │   │   ├── values-gu
+│   │   │   │   │   │   │   │   └── values-gu.xml
+│   │   │   │   │   │   │   ├── values-h720dp-v13
+│   │   │   │   │   │   │   │   └── values-h720dp-v13.xml
+│   │   │   │   │   │   │   ├── values-hdpi-v4
+│   │   │   │   │   │   │   │   └── values-hdpi-v4.xml
+│   │   │   │   │   │   │   ├── values-hi
+│   │   │   │   │   │   │   │   └── values-hi.xml
+│   │   │   │   │   │   │   ├── values-hr
+│   │   │   │   │   │   │   │   └── values-hr.xml
+│   │   │   │   │   │   │   ├── values-hu
+│   │   │   │   │   │   │   │   └── values-hu.xml
+│   │   │   │   │   │   │   ├── values-hy
+│   │   │   │   │   │   │   │   └── values-hy.xml
+│   │   │   │   │   │   │   ├── values-in
+│   │   │   │   │   │   │   │   └── values-in.xml
+│   │   │   │   │   │   │   ├── values-is
+│   │   │   │   │   │   │   │   └── values-is.xml
+│   │   │   │   │   │   │   ├── values-it
+│   │   │   │   │   │   │   │   └── values-it.xml
+│   │   │   │   │   │   │   ├── values-iw
+│   │   │   │   │   │   │   │   └── values-iw.xml
+│   │   │   │   │   │   │   ├── values-ja
+│   │   │   │   │   │   │   │   └── values-ja.xml
+│   │   │   │   │   │   │   ├── values-ka
+│   │   │   │   │   │   │   │   └── values-ka.xml
+│   │   │   │   │   │   │   ├── values-kk
+│   │   │   │   │   │   │   │   └── values-kk.xml
+│   │   │   │   │   │   │   ├── values-km
+│   │   │   │   │   │   │   │   └── values-km.xml
+│   │   │   │   │   │   │   ├── values-kn
+│   │   │   │   │   │   │   │   └── values-kn.xml
+│   │   │   │   │   │   │   ├── values-ko
+│   │   │   │   │   │   │   │   └── values-ko.xml
+│   │   │   │   │   │   │   ├── values-ky
+│   │   │   │   │   │   │   │   └── values-ky.xml
+│   │   │   │   │   │   │   ├── values-land
+│   │   │   │   │   │   │   │   └── values-land.xml
+│   │   │   │   │   │   │   ├── values-large-v4
+│   │   │   │   │   │   │   │   └── values-large-v4.xml
+│   │   │   │   │   │   │   ├── values-ldltr-v21
+│   │   │   │   │   │   │   │   └── values-ldltr-v21.xml
+│   │   │   │   │   │   │   ├── values-lo
+│   │   │   │   │   │   │   │   └── values-lo.xml
+│   │   │   │   │   │   │   ├── values-lt
+│   │   │   │   │   │   │   │   └── values-lt.xml
+│   │   │   │   │   │   │   ├── values-lv
+│   │   │   │   │   │   │   │   └── values-lv.xml
+│   │   │   │   │   │   │   ├── values-mk
+│   │   │   │   │   │   │   │   └── values-mk.xml
+│   │   │   │   │   │   │   ├── values-ml
+│   │   │   │   │   │   │   │   └── values-ml.xml
+│   │   │   │   │   │   │   ├── values-mn
+│   │   │   │   │   │   │   │   └── values-mn.xml
+│   │   │   │   │   │   │   ├── values-mr
+│   │   │   │   │   │   │   │   └── values-mr.xml
+│   │   │   │   │   │   │   ├── values-ms
+│   │   │   │   │   │   │   │   └── values-ms.xml
+│   │   │   │   │   │   │   ├── values-my
+│   │   │   │   │   │   │   │   └── values-my.xml
+│   │   │   │   │   │   │   ├── values-nb
+│   │   │   │   │   │   │   │   └── values-nb.xml
+│   │   │   │   │   │   │   ├── values-ne
+│   │   │   │   │   │   │   │   └── values-ne.xml
+│   │   │   │   │   │   │   ├── values-night-v8
+│   │   │   │   │   │   │   │   └── values-night-v8.xml
+│   │   │   │   │   │   │   ├── values-nl
+│   │   │   │   │   │   │   │   └── values-nl.xml
+│   │   │   │   │   │   │   ├── values-or
+│   │   │   │   │   │   │   │   └── values-or.xml
+│   │   │   │   │   │   │   ├── values-pa
+│   │   │   │   │   │   │   │   └── values-pa.xml
+│   │   │   │   │   │   │   ├── values-pl
+│   │   │   │   │   │   │   │   └── values-pl.xml
+│   │   │   │   │   │   │   ├── values-port
+│   │   │   │   │   │   │   │   └── values-port.xml
+│   │   │   │   │   │   │   ├── values-pt
+│   │   │   │   │   │   │   │   └── values-pt.xml
+│   │   │   │   │   │   │   ├── values-pt-rBR
+│   │   │   │   │   │   │   │   └── values-pt-rBR.xml
+│   │   │   │   │   │   │   ├── values-pt-rPT
+│   │   │   │   │   │   │   │   └── values-pt-rPT.xml
+│   │   │   │   │   │   │   ├── values-ro
+│   │   │   │   │   │   │   │   └── values-ro.xml
+│   │   │   │   │   │   │   ├── values-ru
+│   │   │   │   │   │   │   │   └── values-ru.xml
+│   │   │   │   │   │   │   ├── values-si
+│   │   │   │   │   │   │   │   └── values-si.xml
+│   │   │   │   │   │   │   ├── values-sk
+│   │   │   │   │   │   │   │   └── values-sk.xml
+│   │   │   │   │   │   │   ├── values-sl
+│   │   │   │   │   │   │   │   └── values-sl.xml
+│   │   │   │   │   │   │   ├── values-sq
+│   │   │   │   │   │   │   │   └── values-sq.xml
+│   │   │   │   │   │   │   ├── values-sr
+│   │   │   │   │   │   │   │   └── values-sr.xml
+│   │   │   │   │   │   │   ├── values-sv
+│   │   │   │   │   │   │   │   └── values-sv.xml
+│   │   │   │   │   │   │   ├── values-sw
+│   │   │   │   │   │   │   │   └── values-sw.xml
+│   │   │   │   │   │   │   ├── values-sw360dp-v13
+│   │   │   │   │   │   │   │   └── values-sw360dp-v13.xml
+│   │   │   │   │   │   │   ├── values-sw600dp-v13
+│   │   │   │   │   │   │   │   └── values-sw600dp-v13.xml
+│   │   │   │   │   │   │   ├── values-ta
+│   │   │   │   │   │   │   │   └── values-ta.xml
+│   │   │   │   │   │   │   ├── values-te
+│   │   │   │   │   │   │   │   └── values-te.xml
+│   │   │   │   │   │   │   ├── values-th
+│   │   │   │   │   │   │   │   └── values-th.xml
+│   │   │   │   │   │   │   ├── values-tl
+│   │   │   │   │   │   │   │   └── values-tl.xml
+│   │   │   │   │   │   │   ├── values-tr
+│   │   │   │   │   │   │   │   └── values-tr.xml
+│   │   │   │   │   │   │   ├── values-uk
+│   │   │   │   │   │   │   │   └── values-uk.xml
+│   │   │   │   │   │   │   ├── values-ur
+│   │   │   │   │   │   │   │   └── values-ur.xml
+│   │   │   │   │   │   │   ├── values-uz
+│   │   │   │   │   │   │   │   └── values-uz.xml
+│   │   │   │   │   │   │   ├── values-v16
+│   │   │   │   │   │   │   │   └── values-v16.xml
+│   │   │   │   │   │   │   ├── values-v17
+│   │   │   │   │   │   │   │   └── values-v17.xml
+│   │   │   │   │   │   │   ├── values-v18
+│   │   │   │   │   │   │   │   └── values-v18.xml
+│   │   │   │   │   │   │   ├── values-v21
+│   │   │   │   │   │   │   │   └── values-v21.xml
+│   │   │   │   │   │   │   ├── values-v22
+│   │   │   │   │   │   │   │   └── values-v22.xml
+│   │   │   │   │   │   │   ├── values-v23
+│   │   │   │   │   │   │   │   └── values-v23.xml
+│   │   │   │   │   │   │   ├── values-v24
+│   │   │   │   │   │   │   │   └── values-v24.xml
+│   │   │   │   │   │   │   ├── values-v25
+│   │   │   │   │   │   │   │   └── values-v25.xml
+│   │   │   │   │   │   │   ├── values-v26
+│   │   │   │   │   │   │   │   └── values-v26.xml
+│   │   │   │   │   │   │   ├── values-v28
+│   │   │   │   │   │   │   │   └── values-v28.xml
+│   │   │   │   │   │   │   ├── values-vi
+│   │   │   │   │   │   │   │   └── values-vi.xml
+│   │   │   │   │   │   │   ├── values-watch-v20
+│   │   │   │   │   │   │   │   └── values-watch-v20.xml
+│   │   │   │   │   │   │   ├── values-watch-v21
+│   │   │   │   │   │   │   │   └── values-watch-v21.xml
+│   │   │   │   │   │   │   ├── values-xlarge-v4
+│   │   │   │   │   │   │   │   └── values-xlarge-v4.xml
+│   │   │   │   │   │   │   ├── values-zh-rCN
+│   │   │   │   │   │   │   │   └── values-zh-rCN.xml
+│   │   │   │   │   │   │   ├── values-zh-rHK
+│   │   │   │   │   │   │   │   └── values-zh-rHK.xml
+│   │   │   │   │   │   │   ├── values-zh-rTW
+│   │   │   │   │   │   │   │   └── values-zh-rTW.xml
+│   │   │   │   │   │   │   └── values-zu
+│   │   │   │   │   │   │       └── values-zu.xml
+│   │   │   │   │   │   ├── merger.xml
+│   │   │   │   │   │   └── stripped.dir
+│   │   │   │   │   └── packageDebugResources
+│   │   │   │   │       ├── compile-file-map.properties
+│   │   │   │   │       ├── merged.dir
+│   │   │   │   │       │   ├── values
+│   │   │   │   │       │   │   └── values.xml
+│   │   │   │   │       │   └── values-night-v8
+│   │   │   │   │       │       └── values-night-v8.xml
+│   │   │   │   │       ├── merger.xml
+│   │   │   │   │       └── stripped.dir
+│   │   │   │   ├── debug-mergeJavaRes
+│   │   │   │   │   ├── merge-state
+│   │   │   │   │   └── zip-cache
+│   │   │   │   │       ├── 1N2kP3qkzaQf9DBDp6Lrz3VUCsA=
+│   │   │   │   │       ├── 27kFbQDJrYOYPuoJHX3AYAgvJhA=
+│   │   │   │   │       ├── 3K5MedVna5yp1QLpyL64P6Pwgug=
+│   │   │   │   │       ├── 3d+GMb2mJjp1n5zfVj2YG1PmaZI=
+│   │   │   │   │       ├── 4BRcIjpepJgV9LD9UZ_9+lz4VR8=
+│   │   │   │   │       ├── 4fHPrub_m7G2xtmHmX7kJ63No3g=
+│   │   │   │   │       ├── 58SYUBLMPDthdNL6p7+eMyzGTzM=
+│   │   │   │   │       ├── 5Q32U80DznMXgzW6l7tyYGPQkv4=
+│   │   │   │   │       ├── 6eGOpu5juwbQL5jRH_x_eS26M_M=
+│   │   │   │   │       ├── 7nSFvZc_RhtN6eFpA_VhW_NJZ3c=
+│   │   │   │   │       ├── 8HJCdAa_5IyQgg1pyyK5IXAC2i0=
+│   │   │   │   │       ├── 98RE2XsWnCPPS+W4+8yJuvMdQF8=
+│   │   │   │   │       ├── 9A2LAJF1wUDopX5Gm1WtqrEKYQM=
+│   │   │   │   │       ├── 9JyMV+OOJH5VOum+scVAIcCqS9g=
+│   │   │   │   │       ├── 9M81_UTLhb35B_xkFtIr+ydd1a4=
+│   │   │   │   │       ├── 9RIzppI4Ss+nkM4EKCRFJqYCbT4=
+│   │   │   │   │       ├── AkFEW7MjEZieOhf7l+OywFIUx4U=
+│   │   │   │   │       ├── EROSYuk89yyAACAm4wmeBZQMgpg=
+│   │   │   │   │       ├── Evz3ndRizB_xe5IgjlDsppzVa+w=
+│   │   │   │   │       ├── ExrXotNrlWvHu8hwFdIBDtq6e40=
+│   │   │   │   │       ├── F5XsY02Inl_h22yIzNPlmx_Ew6Y=
+│   │   │   │   │       ├── F9ch06pWuQqgV5mLiQEkb+9ZQ+k=
+│   │   │   │   │       ├── FJWtPNOfwU3Gnd33xu+yidt6kXw=
+│   │   │   │   │       ├── G23BorWhgB4_hIa3lzw_hl+YuJY=
+│   │   │   │   │       ├── G7ZULWenW6MurkFQ_soruErTvag=
+│   │   │   │   │       ├── GOCYRozYF7cfLhzijK0n0hwiMMc=
+│   │   │   │   │       ├── H5tM8CULyIK_RGJ+9kP3BX4Rxnk=
+│   │   │   │   │       ├── K+GUm2Dsis0_RozGeo0NPt0HFho=
+│   │   │   │   │       ├── L+igj649zQc9npa+wPvpH2GBqEQ=
+│   │   │   │   │       ├── LEU4S7sgGD+Is6YJUMA+9iL_YtM=
+│   │   │   │   │       ├── LbFg2Uie6iDOvXTcrGeoOLJZrmA=
+│   │   │   │   │       ├── LbFlz2rzbF55BHLs7JZuzAd+oFM=
+│   │   │   │   │       ├── OsBvPt9Saf+nALStUbQJzbeQ2os=
+│   │   │   │   │       ├── PJmWpjbEuWuztj1Jt3VfyVpVf8k=
+│   │   │   │   │       ├── PNdeRwLR9xiRWlOBGVnX3f2Fisw=
+│   │   │   │   │       ├── QgnHNmD_I_hJ6JiRKyxB9mZS9_8=
+│   │   │   │   │       ├── RW3Y0jniBs2nAg+Uiojv6gQnVTM=
+│   │   │   │   │       ├── S0ZX03lPCB8s9HzXJzT07NfoknU=
+│   │   │   │   │       ├── Sl0xUF+gHbIKhihFVNgtjaqNK2s=
+│   │   │   │   │       ├── UOvggPQhny_ckBwtUpmB9ep78Rw=
+│   │   │   │   │       ├── V+X_4jzax1EIF353F0auN0123P8=
+│   │   │   │   │       ├── X19AlEsBwl8__5IqFE75tQL_0xg=
+│   │   │   │   │       ├── YKFM_1CrVT1fwkqWfoVg0Kqckz0=
+│   │   │   │   │       ├── Z3+n+FTPG8kkZNfrbDQsIxdEbgg=
+│   │   │   │   │       ├── _T3ksRkWqi4bOHl5mwTWADdFGMk=
+│   │   │   │   │       ├── _sQzCfAkibhYW6zYlO2Q1f0VXZg=
+│   │   │   │   │       ├── brQYPl5YVjFAEO_Bwgoe74BHv6w=
+│   │   │   │   │       ├── e+IpPPMWGEjPeFoKp+AvzmpyOzI=
+│   │   │   │   │       ├── fXvNyhm2ANoCm58ZgXQMa3ZGOns=
+│   │   │   │   │       ├── gF_yjsGV+fcWofXysR9gJxy92_Q=
+│   │   │   │   │       ├── geoVwUr9uIJNMGNHi7IRXJHCqxc=
+│   │   │   │   │       ├── gjUCterdz8mXIp2qX_xyxfDLpZM=
+│   │   │   │   │       ├── glAc50njjQ1Bm7TBAvzBG46OYmE=
+│   │   │   │   │       ├── hnXpIWJ1p6yxUSx3j8w+8jS0SRQ=
+│   │   │   │   │       ├── i4z2dogwT6girEAI8EdWO5FXnQE=
+│   │   │   │   │       ├── i6OJbtYQ+H2KUFYBy27nA+SIEzg=
+│   │   │   │   │       ├── iJtP6Y5jYab9wa7Om9P9hYaccU8=
+│   │   │   │   │       ├── iPMSiwXKRF_F0dtnmtuM+otY3zw=
+│   │   │   │   │       ├── j_3nE0wbUJn2t8g7sCpdaxOJcHk=
+│   │   │   │   │       ├── kK6GHKo3+2PkvAMQ9Fg9RuSU518=
+│   │   │   │   │       ├── kSZIOtwhr+wqKtx1+2H94rjxPoQ=
+│   │   │   │   │       ├── kgOdVlW52wSexFdZFMPrpPnvpHg=
+│   │   │   │   │       ├── lSWjf6oswrjO8YAzaVKbVjXb1Gk=
+│   │   │   │   │       ├── llaDIYWzh55mqqweJlZ_bX4Fdbs=
+│   │   │   │   │       ├── m9DD1eEC41RtiqXI6eGwgRosJBY=
+│   │   │   │   │       ├── mb5AF90b6BT4TfOE3UkMWm+7u9s=
+│   │   │   │   │       ├── qputf_v04ai0fgWydSzGbvFsL+8=
+│   │   │   │   │       ├── rX44Fj83JN0kSspPn2Ln66pL_HA=
+│   │   │   │   │       ├── uBlTm0EX_hQqB5nJvXUpVLlWo0Q=
+│   │   │   │   │       ├── vGJPLSATACqgGz7ROdi4Tdw91mY=
+│   │   │   │   │       ├── vayuCELdACctbA4gwrwVxz0RMg0=
+│   │   │   │   │       ├── vuHrMxfflMvU99uOfvSCGsOORLg=
+│   │   │   │   │       ├── wHUBfxclzPmw8LwszYtcwhrFE3U=
+│   │   │   │   │       ├── xAT1YOQkuWjjVpUtQEM1Yw3hD3k=
+│   │   │   │   │       ├── xfSZyd7hrp_WxguMZRztkJ1FgDU=
+│   │   │   │   │       ├── y9JJhfTnqfnxAP9de+zNBxlLQw4=
+│   │   │   │   │       ├── yMWr4e65byHkKuZuBb4NmcUDNFo=
+│   │   │   │   │       ├── zOzsbNfRp80y2FjaFlTOr2sVfE4=
+│   │   │   │   │       ├── z_Bprqc5LQwhyzaFhsYpt+vgIhA=
+│   │   │   │   │       ├── zn52cvyAhKrzFwjQVcqVRgg_c64=
+│   │   │   │   │       └── zn6dblK_J3oDbvHiQJ9rWkcZN7g=
+│   │   │   │   ├── mergeDebugAssets
+│   │   │   │   │   └── merger.xml
+│   │   │   │   ├── mergeDebugJniLibFolders
+│   │   │   │   │   └── merger.xml
+│   │   │   │   ├── mergeDebugShaders
+│   │   │   │   │   └── merger.xml
+│   │   │   │   ├── packageDebug
+│   │   │   │   │   └── tmp
+│   │   │   │   │       └── debug
+│   │   │   │   │           ├── dex-renamer-state.txt
+│   │   │   │   │           └── zip-cache
+│   │   │   │   │               ├── androidResources
+│   │   │   │   │               └── javaResources0
+│   │   │   │   └── processDebugResources
+│   │   │   │       └── resources-list-for-linked-resources-binary-format-debug.ap_.txt
+│   │   │   ├── java_res
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugJavaRes
+│   │   │   │           └── out
+│   │   │   │               ├── META-INF
+│   │   │   │               │   └── app_debug.kotlin_module
+│   │   │   │               └── com
+│   │   │   │                   └── example
+│   │   │   │                       └── digital_desa
+│   │   │   ├── javac
+│   │   │   │   └── debug
+│   │   │   │       └── compileDebugJavaWithJavac
+│   │   │   │           └── classes
+│   │   │   │               └── io
+│   │   │   │                   └── flutter
+│   │   │   │                       └── plugins
+│   │   │   ├── linked_resources_binary_format
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugResources
+│   │   │   │           ├── linked-resources-binary-format-debug.ap_
+│   │   │   │           └── output-metadata.json
+│   │   │   ├── local_only_symbol_list
+│   │   │   │   └── debug
+│   │   │   │       └── parseDebugLocalResources
+│   │   │   │           └── R-def.txt
+│   │   │   ├── manifest_merge_blame_file
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugMainManifest
+│   │   │   │           └── manifest-merger-blame-debug-report.txt
+│   │   │   ├── merged_java_res
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugJavaResource
+│   │   │   │           └── base.jar
+│   │   │   ├── merged_jni_libs
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugJniLibFolders
+│   │   │   │           └── out
+│   │   │   ├── merged_manifest
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugMainManifest
+│   │   │   │           └── AndroidManifest.xml
+│   │   │   ├── merged_manifests
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifest
+│   │   │   │           ├── AndroidManifest.xml
+│   │   │   │           └── output-metadata.json
+│   │   │   ├── merged_native_libs
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugNativeLibs
+│   │   │   │           └── out
+│   │   │   │               └── lib
+│   │   │   │                   ├── arm64-v8a
+│   │   │   │                   │   ├── libVkLayer_khronos_validation.so
+│   │   │   │                   │   ├── libdatastore_shared_counter.so
+│   │   │   │                   │   └── libflutter.so
+│   │   │   │                   ├── armeabi-v7a
+│   │   │   │                   │   └── libdatastore_shared_counter.so
+│   │   │   │                   ├── x86
+│   │   │   │                   │   └── libdatastore_shared_counter.so
+│   │   │   │                   └── x86_64
+│   │   │   │                       └── libdatastore_shared_counter.so
+│   │   │   ├── merged_res
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugResources
+│   │   │   │           ├── drawable-v21_launch_background.xml.flat
+│   │   │   │           ├── mipmap-hdpi_ic_launcher.png.flat
+│   │   │   │           ├── mipmap-mdpi_ic_launcher.png.flat
+│   │   │   │           ├── mipmap-xhdpi_ic_launcher.png.flat
+│   │   │   │           ├── mipmap-xxhdpi_ic_launcher.png.flat
+│   │   │   │           ├── mipmap-xxxhdpi_ic_launcher.png.flat
+│   │   │   │           ├── values-af_values-af.arsc.flat
+│   │   │   │           ├── values-am_values-am.arsc.flat
+│   │   │   │           ├── values-ar_values-ar.arsc.flat
+│   │   │   │           ├── values-as_values-as.arsc.flat
+│   │   │   │           ├── values-az_values-az.arsc.flat
+│   │   │   │           ├── values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+│   │   │   │           ├── values-be_values-be.arsc.flat
+│   │   │   │           ├── values-bg_values-bg.arsc.flat
+│   │   │   │           ├── values-bn_values-bn.arsc.flat
+│   │   │   │           ├── values-bs_values-bs.arsc.flat
+│   │   │   │           ├── values-ca_values-ca.arsc.flat
+│   │   │   │           ├── values-cs_values-cs.arsc.flat
+│   │   │   │           ├── values-da_values-da.arsc.flat
+│   │   │   │           ├── values-de_values-de.arsc.flat
+│   │   │   │           ├── values-el_values-el.arsc.flat
+│   │   │   │           ├── values-en-rAU_values-en-rAU.arsc.flat
+│   │   │   │           ├── values-en-rCA_values-en-rCA.arsc.flat
+│   │   │   │           ├── values-en-rGB_values-en-rGB.arsc.flat
+│   │   │   │           ├── values-en-rIN_values-en-rIN.arsc.flat
+│   │   │   │           ├── values-en-rXC_values-en-rXC.arsc.flat
+│   │   │   │           ├── values-es-rUS_values-es-rUS.arsc.flat
+│   │   │   │           ├── values-es_values-es.arsc.flat
+│   │   │   │           ├── values-et_values-et.arsc.flat
+│   │   │   │           ├── values-eu_values-eu.arsc.flat
+│   │   │   │           ├── values-fa_values-fa.arsc.flat
+│   │   │   │           ├── values-fi_values-fi.arsc.flat
+│   │   │   │           ├── values-fr-rCA_values-fr-rCA.arsc.flat
+│   │   │   │           ├── values-fr_values-fr.arsc.flat
+│   │   │   │           ├── values-gl_values-gl.arsc.flat
+│   │   │   │           ├── values-gu_values-gu.arsc.flat
+│   │   │   │           ├── values-h720dp-v13_values-h720dp-v13.arsc.flat
+│   │   │   │           ├── values-hdpi-v4_values-hdpi-v4.arsc.flat
+│   │   │   │           ├── values-hi_values-hi.arsc.flat
+│   │   │   │           ├── values-hr_values-hr.arsc.flat
+│   │   │   │           ├── values-hu_values-hu.arsc.flat
+│   │   │   │           ├── values-hy_values-hy.arsc.flat
+│   │   │   │           ├── values-in_values-in.arsc.flat
+│   │   │   │           ├── values-is_values-is.arsc.flat
+│   │   │   │           ├── values-it_values-it.arsc.flat
+│   │   │   │           ├── values-iw_values-iw.arsc.flat
+│   │   │   │           ├── values-ja_values-ja.arsc.flat
+│   │   │   │           ├── values-ka_values-ka.arsc.flat
+│   │   │   │           ├── values-kk_values-kk.arsc.flat
+│   │   │   │           ├── values-km_values-km.arsc.flat
+│   │   │   │           ├── values-kn_values-kn.arsc.flat
+│   │   │   │           ├── values-ko_values-ko.arsc.flat
+│   │   │   │           ├── values-ky_values-ky.arsc.flat
+│   │   │   │           ├── values-land_values-land.arsc.flat
+│   │   │   │           ├── values-large-v4_values-large-v4.arsc.flat
+│   │   │   │           ├── values-ldltr-v21_values-ldltr-v21.arsc.flat
+│   │   │   │           ├── values-lo_values-lo.arsc.flat
+│   │   │   │           ├── values-lt_values-lt.arsc.flat
+│   │   │   │           ├── values-lv_values-lv.arsc.flat
+│   │   │   │           ├── values-mk_values-mk.arsc.flat
+│   │   │   │           ├── values-ml_values-ml.arsc.flat
+│   │   │   │           ├── values-mn_values-mn.arsc.flat
+│   │   │   │           ├── values-mr_values-mr.arsc.flat
+│   │   │   │           ├── values-ms_values-ms.arsc.flat
+│   │   │   │           ├── values-my_values-my.arsc.flat
+│   │   │   │           ├── values-nb_values-nb.arsc.flat
+│   │   │   │           ├── values-ne_values-ne.arsc.flat
+│   │   │   │           ├── values-night-v8_values-night-v8.arsc.flat
+│   │   │   │           ├── values-nl_values-nl.arsc.flat
+│   │   │   │           ├── values-or_values-or.arsc.flat
+│   │   │   │           ├── values-pa_values-pa.arsc.flat
+│   │   │   │           ├── values-pl_values-pl.arsc.flat
+│   │   │   │           ├── values-port_values-port.arsc.flat
+│   │   │   │           ├── values-pt-rBR_values-pt-rBR.arsc.flat
+│   │   │   │           ├── values-pt-rPT_values-pt-rPT.arsc.flat
+│   │   │   │           ├── values-pt_values-pt.arsc.flat
+│   │   │   │           ├── values-ro_values-ro.arsc.flat
+│   │   │   │           ├── values-ru_values-ru.arsc.flat
+│   │   │   │           ├── values-si_values-si.arsc.flat
+│   │   │   │           ├── values-sk_values-sk.arsc.flat
+│   │   │   │           ├── values-sl_values-sl.arsc.flat
+│   │   │   │           ├── values-sq_values-sq.arsc.flat
+│   │   │   │           ├── values-sr_values-sr.arsc.flat
+│   │   │   │           ├── values-sv_values-sv.arsc.flat
+│   │   │   │           ├── values-sw360dp-v13_values-sw360dp-v13.arsc.flat
+│   │   │   │           ├── values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+│   │   │   │           ├── values-sw_values-sw.arsc.flat
+│   │   │   │           ├── values-ta_values-ta.arsc.flat
+│   │   │   │           ├── values-te_values-te.arsc.flat
+│   │   │   │           ├── values-th_values-th.arsc.flat
+│   │   │   │           ├── values-tl_values-tl.arsc.flat
+│   │   │   │           ├── values-tr_values-tr.arsc.flat
+│   │   │   │           ├── values-uk_values-uk.arsc.flat
+│   │   │   │           ├── values-ur_values-ur.arsc.flat
+│   │   │   │           ├── values-uz_values-uz.arsc.flat
+│   │   │   │           ├── values-v16_values-v16.arsc.flat
+│   │   │   │           ├── values-v17_values-v17.arsc.flat
+│   │   │   │           ├── values-v18_values-v18.arsc.flat
+│   │   │   │           ├── values-v21_values-v21.arsc.flat
+│   │   │   │           ├── values-v22_values-v22.arsc.flat
+│   │   │   │           ├── values-v23_values-v23.arsc.flat
+│   │   │   │           ├── values-v24_values-v24.arsc.flat
+│   │   │   │           ├── values-v25_values-v25.arsc.flat
+│   │   │   │           ├── values-v26_values-v26.arsc.flat
+│   │   │   │           ├── values-v28_values-v28.arsc.flat
+│   │   │   │           ├── values-vi_values-vi.arsc.flat
+│   │   │   │           ├── values-watch-v20_values-watch-v20.arsc.flat
+│   │   │   │           ├── values-watch-v21_values-watch-v21.arsc.flat
+│   │   │   │           ├── values-xlarge-v4_values-xlarge-v4.arsc.flat
+│   │   │   │           ├── values-zh-rCN_values-zh-rCN.arsc.flat
+│   │   │   │           ├── values-zh-rHK_values-zh-rHK.arsc.flat
+│   │   │   │           ├── values-zh-rTW_values-zh-rTW.arsc.flat
+│   │   │   │           ├── values-zu_values-zu.arsc.flat
+│   │   │   │           └── values_values.arsc.flat
+│   │   │   ├── merged_res_blame_folder
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugResources
+│   │   │   │           └── out
+│   │   │   │               ├── multi-v2
+│   │   │   │               │   ├── mergeDebugResources.json
+│   │   │   │               │   ├── values-af.json
+│   │   │   │               │   ├── values-am.json
+│   │   │   │               │   ├── values-ar.json
+│   │   │   │               │   ├── values-as.json
+│   │   │   │               │   ├── values-az.json
+│   │   │   │               │   ├── values-b+sr+Latn.json
+│   │   │   │               │   ├── values-be.json
+│   │   │   │               │   ├── values-bg.json
+│   │   │   │               │   ├── values-bn.json
+│   │   │   │               │   ├── values-bs.json
+│   │   │   │               │   ├── values-ca.json
+│   │   │   │               │   ├── values-cs.json
+│   │   │   │               │   ├── values-da.json
+│   │   │   │               │   ├── values-de.json
+│   │   │   │               │   ├── values-el.json
+│   │   │   │               │   ├── values-en-rAU.json
+│   │   │   │               │   ├── values-en-rCA.json
+│   │   │   │               │   ├── values-en-rGB.json
+│   │   │   │               │   ├── values-en-rIN.json
+│   │   │   │               │   ├── values-en-rXC.json
+│   │   │   │               │   ├── values-es-rUS.json
+│   │   │   │               │   ├── values-es.json
+│   │   │   │               │   ├── values-et.json
+│   │   │   │               │   ├── values-eu.json
+│   │   │   │               │   ├── values-fa.json
+│   │   │   │               │   ├── values-fi.json
+│   │   │   │               │   ├── values-fr-rCA.json
+│   │   │   │               │   ├── values-fr.json
+│   │   │   │               │   ├── values-gl.json
+│   │   │   │               │   ├── values-gu.json
+│   │   │   │               │   ├── values-h720dp-v13.json
+│   │   │   │               │   ├── values-hdpi-v4.json
+│   │   │   │               │   ├── values-hi.json
+│   │   │   │               │   ├── values-hr.json
+│   │   │   │               │   ├── values-hu.json
+│   │   │   │               │   ├── values-hy.json
+│   │   │   │               │   ├── values-in.json
+│   │   │   │               │   ├── values-is.json
+│   │   │   │               │   ├── values-it.json
+│   │   │   │               │   ├── values-iw.json
+│   │   │   │               │   ├── values-ja.json
+│   │   │   │               │   ├── values-ka.json
+│   │   │   │               │   ├── values-kk.json
+│   │   │   │               │   ├── values-km.json
+│   │   │   │               │   ├── values-kn.json
+│   │   │   │               │   ├── values-ko.json
+│   │   │   │               │   ├── values-ky.json
+│   │   │   │               │   ├── values-land.json
+│   │   │   │               │   ├── values-large-v4.json
+│   │   │   │               │   ├── values-ldltr-v21.json
+│   │   │   │               │   ├── values-lo.json
+│   │   │   │               │   ├── values-lt.json
+│   │   │   │               │   ├── values-lv.json
+│   │   │   │               │   ├── values-mk.json
+│   │   │   │               │   ├── values-ml.json
+│   │   │   │               │   ├── values-mn.json
+│   │   │   │               │   ├── values-mr.json
+│   │   │   │               │   ├── values-ms.json
+│   │   │   │               │   ├── values-my.json
+│   │   │   │               │   ├── values-nb.json
+│   │   │   │               │   ├── values-ne.json
+│   │   │   │               │   ├── values-night-v8.json
+│   │   │   │               │   ├── values-nl.json
+│   │   │   │               │   ├── values-or.json
+│   │   │   │               │   ├── values-pa.json
+│   │   │   │               │   ├── values-pl.json
+│   │   │   │               │   ├── values-port.json
+│   │   │   │               │   ├── values-pt-rBR.json
+│   │   │   │               │   ├── values-pt-rPT.json
+│   │   │   │               │   ├── values-pt.json
+│   │   │   │               │   ├── values-ro.json
+│   │   │   │               │   ├── values-ru.json
+│   │   │   │               │   ├── values-si.json
+│   │   │   │               │   ├── values-sk.json
+│   │   │   │               │   ├── values-sl.json
+│   │   │   │               │   ├── values-sq.json
+│   │   │   │               │   ├── values-sr.json
+│   │   │   │               │   ├── values-sv.json
+│   │   │   │               │   ├── values-sw.json
+│   │   │   │               │   ├── values-sw360dp-v13.json
+│   │   │   │               │   ├── values-sw600dp-v13.json
+│   │   │   │               │   ├── values-ta.json
+│   │   │   │               │   ├── values-te.json
+│   │   │   │               │   ├── values-th.json
+│   │   │   │               │   ├── values-tl.json
+│   │   │   │               │   ├── values-tr.json
+│   │   │   │               │   ├── values-uk.json
+│   │   │   │               │   ├── values-ur.json
+│   │   │   │               │   ├── values-uz.json
+│   │   │   │               │   ├── values-v16.json
+│   │   │   │               │   ├── values-v17.json
+│   │   │   │               │   ├── values-v18.json
+│   │   │   │               │   ├── values-v21.json
+│   │   │   │               │   ├── values-v22.json
+│   │   │   │               │   ├── values-v23.json
+│   │   │   │               │   ├── values-v24.json
+│   │   │   │               │   ├── values-v25.json
+│   │   │   │               │   ├── values-v26.json
+│   │   │   │               │   ├── values-v28.json
+│   │   │   │               │   ├── values-vi.json
+│   │   │   │               │   ├── values-watch-v20.json
+│   │   │   │               │   ├── values-watch-v21.json
+│   │   │   │               │   ├── values-xlarge-v4.json
+│   │   │   │               │   ├── values-zh-rCN.json
+│   │   │   │               │   ├── values-zh-rHK.json
+│   │   │   │               │   ├── values-zh-rTW.json
+│   │   │   │               │   ├── values-zu.json
+│   │   │   │               │   └── values.json
+│   │   │   │               └── single
+│   │   │   │                   └── mergeDebugResources.json
+│   │   │   ├── merged_shaders
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugShaders
+│   │   │   │           └── out
+│   │   │   ├── merged_test_only_native_libs
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugNativeLibs
+│   │   │   │           └── out
+│   │   │   ├── mixed_scope_dex_archive
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   ├── navigation_json
+│   │   │   │   └── debug
+│   │   │   │       └── extractDeepLinksDebug
+│   │   │   │           └── navigation.json
+│   │   │   ├── nested_resources_validation_report
+│   │   │   │   └── debug
+│   │   │   │       └── generateDebugResources
+│   │   │   │           └── nestedResourcesValidationReport.txt
+│   │   │   ├── packaged_manifests
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifestForPackage
+│   │   │   │           ├── AndroidManifest.xml
+│   │   │   │           └── output-metadata.json
+│   │   │   ├── packaged_res
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   │           ├── drawable-v21
+│   │   │   │           │   └── launch_background.xml
+│   │   │   │           ├── mipmap-hdpi-v4
+│   │   │   │           │   └── ic_launcher.png
+│   │   │   │           ├── mipmap-mdpi-v4
+│   │   │   │           │   └── ic_launcher.png
+│   │   │   │           ├── mipmap-xhdpi-v4
+│   │   │   │           │   └── ic_launcher.png
+│   │   │   │           ├── mipmap-xxhdpi-v4
+│   │   │   │           │   └── ic_launcher.png
+│   │   │   │           ├── mipmap-xxxhdpi-v4
+│   │   │   │           │   └── ic_launcher.png
+│   │   │   │           ├── values
+│   │   │   │           │   └── values.xml
+│   │   │   │           └── values-night-v8
+│   │   │   │               └── values-night-v8.xml
+│   │   │   ├── project_dex_archive
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   │               ├── 474220cc8650e679031005dc9d6cdfc860679f68ef9bd7914fefcf823c6c176b_0.jar
+│   │   │   │               ├── 474220cc8650e679031005dc9d6cdfc860679f68ef9bd7914fefcf823c6c176b_1.jar
+│   │   │   │               ├── 474220cc8650e679031005dc9d6cdfc860679f68ef9bd7914fefcf823c6c176b_2.jar
+│   │   │   │               ├── 474220cc8650e679031005dc9d6cdfc860679f68ef9bd7914fefcf823c6c176b_3.jar
+│   │   │   │               ├── com
+│   │   │   │               │   └── example
+│   │   │   │               │       └── digital_desa
+│   │   │   │               └── io
+│   │   │   │                   └── flutter
+│   │   │   │                       └── plugins
+│   │   │   ├── runtime_symbol_list
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugResources
+│   │   │   │           └── R.txt
+│   │   │   ├── signing_config_versions
+│   │   │   │   └── debug
+│   │   │   │       └── writeDebugSigningConfigVersions
+│   │   │   │           └── signing-config-versions.json
+│   │   │   ├── source_set_path_map
+│   │   │   │   └── debug
+│   │   │   │       └── mapDebugSourceSetPaths
+│   │   │   │           └── file-map.txt
+│   │   │   ├── stable_resource_ids_file
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugResources
+│   │   │   │           └── stableIds.txt
+│   │   │   ├── stripped_native_libs
+│   │   │   │   └── debug
+│   │   │   │       └── stripDebugDebugSymbols
+│   │   │   │           └── out
+│   │   │   │               └── lib
+│   │   │   │                   ├── arm64-v8a
+│   │   │   │                   │   ├── libVkLayer_khronos_validation.so
+│   │   │   │                   │   ├── libdatastore_shared_counter.so
+│   │   │   │                   │   └── libflutter.so
+│   │   │   │                   ├── armeabi-v7a
+│   │   │   │                   │   └── libdatastore_shared_counter.so
+│   │   │   │                   ├── x86
+│   │   │   │                   │   └── libdatastore_shared_counter.so
+│   │   │   │                   └── x86_64
+│   │   │   │                       └── libdatastore_shared_counter.so
+│   │   │   ├── sub_project_dex_archive
+│   │   │   │   └── debug
+│   │   │   │       └── dexBuilderDebug
+│   │   │   │           └── out
+│   │   │   ├── symbol_list_with_package_name
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugResources
+│   │   │   │           └── package-aware-r.txt
+│   │   │   └── validate_signing_config
+│   │   │       └── debug
+│   │   │           └── validateSigningDebug
+│   │   ├── kotlin
+│   │   │   └── compileDebugKotlin
+│   │   │       ├── cacheable
+│   │   │       │   ├── caches-jvm
+│   │   │       │   │   ├── inputs
+│   │   │       │   │   │   ├── source-to-output.tab
+│   │   │       │   │   │   ├── source-to-output.tab.keystream
+│   │   │       │   │   │   ├── source-to-output.tab.keystream.len
+│   │   │       │   │   │   ├── source-to-output.tab.len
+│   │   │       │   │   │   ├── source-to-output.tab.values.at
+│   │   │       │   │   │   ├── source-to-output.tab_i
+│   │   │       │   │   │   └── source-to-output.tab_i.len
+│   │   │       │   │   ├── jvm
+│   │   │       │   │   │   └── kotlin
+│   │   │       │   │   │       ├── class-attributes.tab
+│   │   │       │   │   │       ├── class-attributes.tab.keystream
+│   │   │       │   │   │       ├── class-attributes.tab.keystream.len
+│   │   │       │   │   │       ├── class-attributes.tab.len
+│   │   │       │   │   │       ├── class-attributes.tab.values.at
+│   │   │       │   │   │       ├── class-attributes.tab_i
+│   │   │       │   │   │       ├── class-attributes.tab_i.len
+│   │   │       │   │   │       ├── class-fq-name-to-source.tab
+│   │   │       │   │   │       ├── class-fq-name-to-source.tab.keystream
+│   │   │       │   │   │       ├── class-fq-name-to-source.tab.keystream.len
+│   │   │       │   │   │       ├── class-fq-name-to-source.tab.len
+│   │   │       │   │   │       ├── class-fq-name-to-source.tab.values.at
+│   │   │       │   │   │       ├── class-fq-name-to-source.tab_i
+│   │   │       │   │   │       ├── class-fq-name-to-source.tab_i.len
+│   │   │       │   │   │       ├── internal-name-to-source.tab
+│   │   │       │   │   │       ├── internal-name-to-source.tab.keystream
+│   │   │       │   │   │       ├── internal-name-to-source.tab.keystream.len
+│   │   │       │   │   │       ├── internal-name-to-source.tab.len
+│   │   │       │   │   │       ├── internal-name-to-source.tab.values.at
+│   │   │       │   │   │       ├── internal-name-to-source.tab_i
+│   │   │       │   │   │       ├── internal-name-to-source.tab_i.len
+│   │   │       │   │   │       ├── proto.tab
+│   │   │       │   │   │       ├── proto.tab.keystream
+│   │   │       │   │   │       ├── proto.tab.keystream.len
+│   │   │       │   │   │       ├── proto.tab.len
+│   │   │       │   │   │       ├── proto.tab.values.at
+│   │   │       │   │   │       ├── proto.tab_i
+│   │   │       │   │   │       ├── proto.tab_i.len
+│   │   │       │   │   │       ├── source-to-classes.tab
+│   │   │       │   │   │       ├── source-to-classes.tab.keystream
+│   │   │       │   │   │       ├── source-to-classes.tab.keystream.len
+│   │   │       │   │   │       ├── source-to-classes.tab.len
+│   │   │       │   │   │       ├── source-to-classes.tab.values.at
+│   │   │       │   │   │       ├── source-to-classes.tab_i
+│   │   │       │   │   │       ├── source-to-classes.tab_i.len
+│   │   │       │   │   │       ├── subtypes.tab
+│   │   │       │   │   │       ├── subtypes.tab.keystream
+│   │   │       │   │   │       ├── subtypes.tab.keystream.len
+│   │   │       │   │   │       ├── subtypes.tab.len
+│   │   │       │   │   │       ├── subtypes.tab.values.at
+│   │   │       │   │   │       ├── subtypes.tab_i
+│   │   │       │   │   │       ├── subtypes.tab_i.len
+│   │   │       │   │   │       ├── supertypes.tab
+│   │   │       │   │   │       ├── supertypes.tab.keystream
+│   │   │       │   │   │       ├── supertypes.tab.keystream.len
+│   │   │       │   │   │       ├── supertypes.tab.len
+│   │   │       │   │   │       ├── supertypes.tab.values.at
+│   │   │       │   │   │       ├── supertypes.tab_i
+│   │   │       │   │   │       └── supertypes.tab_i.len
+│   │   │       │   │   └── lookups
+│   │   │       │   │       ├── counters.tab
+│   │   │       │   │       ├── file-to-id.tab
+│   │   │       │   │       ├── file-to-id.tab.keystream
+│   │   │       │   │       ├── file-to-id.tab.keystream.len
+│   │   │       │   │       ├── file-to-id.tab.len
+│   │   │       │   │       ├── file-to-id.tab.values.at
+│   │   │       │   │       ├── file-to-id.tab_i
+│   │   │       │   │       ├── file-to-id.tab_i.len
+│   │   │       │   │       ├── id-to-file.tab
+│   │   │       │   │       ├── id-to-file.tab.keystream
+│   │   │       │   │       ├── id-to-file.tab.keystream.len
+│   │   │       │   │       ├── id-to-file.tab.len
+│   │   │       │   │       ├── id-to-file.tab.values.at
+│   │   │       │   │       ├── id-to-file.tab_i.len
+│   │   │       │   │       ├── lookups.tab
+│   │   │       │   │       ├── lookups.tab.keystream
+│   │   │       │   │       ├── lookups.tab.keystream.len
+│   │   │       │   │       ├── lookups.tab.len
+│   │   │       │   │       ├── lookups.tab.values.at
+│   │   │       │   │       ├── lookups.tab_i
+│   │   │       │   │       └── lookups.tab_i.len
+│   │   │       │   └── last-build.bin
+│   │   │       ├── classpath-snapshot
+│   │   │       │   └── shrunk-classpath-snapshot.bin
+│   │   │       └── local-state
+│   │   │           └── build-history.bin
+│   │   ├── outputs
+│   │   │   ├── apk
+│   │   │   │   └── debug
+│   │   │   │       ├── app-debug.apk
+│   │   │   │       └── output-metadata.json
+│   │   │   ├── flutter-apk
+│   │   │   │   ├── app-debug.apk
+│   │   │   │   └── app-debug.apk.sha1
+│   │   │   └── logs
+│   │   │       └── manifest-merger-debug-report.txt
+│   │   └── tmp
+│   │       ├── compileDebugJavaWithJavac
+│   │       │   └── previous-compilation-data.bin
+│   │       ├── kotlin-classes
+│   │       │   └── debug
+│   │       │       ├── META-INF
+│   │       │       │   └── app_debug.kotlin_module
+│   │       │       └── com
+│   │       │           └── example
+│   │       │               └── digital_desa
+│   │       │                   └── MainActivity.class
+│   │       └── packJniLibsflutterBuildDebug
+│   │           └── MANIFEST.MF
+│   ├── flutter_secure_storage
+│   │   ├── generated
+│   │   │   ├── ap_generated_sources
+│   │   │   │   └── debug
+│   │   │   │       └── out
+│   │   │   ├── res
+│   │   │   │   ├── pngs
+│   │   │   │   │   └── debug
+│   │   │   │   └── resValues
+│   │   │   │       └── debug
+│   │   │   └── source
+│   │   │       └── buildConfig
+│   │   │           └── debug
+│   │   │               └── com
+│   │   │                   └── it_nomads
+│   │   │                       └── fluttersecurestorage
+│   │   │                           └── BuildConfig.java
+│   │   ├── intermediates
+│   │   │   ├── aapt_friendly_merged_manifests
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifest
+│   │   │   │           └── aapt
+│   │   │   │               ├── AndroidManifest.xml
+│   │   │   │               └── output-metadata.json
+│   │   │   ├── aar_libs_directory
+│   │   │   │   └── debug
+│   │   │   │       └── syncDebugLibJars
+│   │   │   │           └── libs
+│   │   │   ├── aar_main_jar
+│   │   │   │   └── debug
+│   │   │   │       └── syncDebugLibJars
+│   │   │   │           └── classes.jar
+│   │   │   ├── aar_metadata
+│   │   │   │   └── debug
+│   │   │   │       └── writeDebugAarMetadata
+│   │   │   │           └── aar-metadata.properties
+│   │   │   ├── annotation_processor_list
+│   │   │   │   └── debug
+│   │   │   │       └── javaPreCompileDebug
+│   │   │   │           └── annotationProcessors.json
+│   │   │   ├── annotations_typedef_file
+│   │   │   │   └── debug
+│   │   │   │       └── extractDebugAnnotations
+│   │   │   │           └── typedefs.txt
+│   │   │   ├── annotations_zip
+│   │   │   │   └── debug
+│   │   │   │       └── extractDebugAnnotations
+│   │   │   ├── assets
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugAssets
+│   │   │   ├── compile_library_classes_jar
+│   │   │   │   └── debug
+│   │   │   │       └── bundleLibCompileToJarDebug
+│   │   │   │           └── classes.jar
+│   │   │   ├── compile_r_class_jar
+│   │   │   │   └── debug
+│   │   │   │       └── generateDebugRFile
+│   │   │   │           └── R.jar
+│   │   │   ├── compile_symbol_list
+│   │   │   │   └── debug
+│   │   │   │       └── generateDebugRFile
+│   │   │   │           └── R.txt
+│   │   │   ├── compiled_local_resources
+│   │   │   │   └── debug
+│   │   │   │       └── compileDebugLibraryResources
+│   │   │   │           └── out
+│   │   │   ├── data_binding_layout_info_type_package
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   │           └── out
+│   │   │   ├── generated_proguard_file
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugGeneratedProguardFiles
+│   │   │   ├── incremental
+│   │   │   │   ├── debug
+│   │   │   │   │   └── packageDebugResources
+│   │   │   │   │       ├── compile-file-map.properties
+│   │   │   │   │       ├── merged.dir
+│   │   │   │   │       ├── merger.xml
+│   │   │   │   │       └── stripped.dir
+│   │   │   │   ├── debug-mergeJavaRes
+│   │   │   │   │   ├── merge-state
+│   │   │   │   │   └── zip-cache
+│   │   │   │   ├── mergeDebugAssets
+│   │   │   │   │   └── merger.xml
+│   │   │   │   ├── mergeDebugJniLibFolders
+│   │   │   │   │   └── merger.xml
+│   │   │   │   └── mergeDebugShaders
+│   │   │   │       └── merger.xml
+│   │   │   ├── javac
+│   │   │   │   └── debug
+│   │   │   │       └── compileDebugJavaWithJavac
+│   │   │   │           └── classes
+│   │   │   │               └── com
+│   │   │   │                   └── it_nomads
+│   │   │   │                       └── fluttersecurestorage
+│   │   │   ├── library_and_local_jars_jni
+│   │   │   │   └── debug
+│   │   │   │       └── copyDebugJniLibsProjectAndLocalJars
+│   │   │   │           └── jni
+│   │   │   ├── library_art_profile
+│   │   │   │   └── debug
+│   │   │   │       └── prepareDebugArtProfile
+│   │   │   ├── library_jni
+│   │   │   │   └── debug
+│   │   │   │       └── copyDebugJniLibsProjectOnly
+│   │   │   │           └── jni
+│   │   │   ├── lint_publish_jar
+│   │   │   │   └── global
+│   │   │   │       └── prepareLintJarForPublish
+│   │   │   ├── local_only_symbol_list
+│   │   │   │   └── debug
+│   │   │   │       └── parseDebugLocalResources
+│   │   │   │           └── R-def.txt
+│   │   │   ├── manifest_merge_blame_file
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifest
+│   │   │   │           └── manifest-merger-blame-debug-report.txt
+│   │   │   ├── merged_consumer_proguard_file
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugConsumerProguardFiles
+│   │   │   ├── merged_java_res
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugJavaResource
+│   │   │   │           └── feature-flutter_secure_storage.jar
+│   │   │   ├── merged_jni_libs
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugJniLibFolders
+│   │   │   │           └── out
+│   │   │   ├── merged_manifest
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifest
+│   │   │   │           └── AndroidManifest.xml
+│   │   │   ├── merged_shaders
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugShaders
+│   │   │   │           └── out
+│   │   │   ├── navigation_json
+│   │   │   │   └── debug
+│   │   │   │       └── extractDeepLinksDebug
+│   │   │   │           └── navigation.json
+│   │   │   ├── navigation_json_for_aar
+│   │   │   │   └── debug
+│   │   │   │       └── extractDeepLinksForAarDebug
+│   │   │   ├── nested_resources_validation_report
+│   │   │   │   └── debug
+│   │   │   │       └── generateDebugResources
+│   │   │   │           └── nestedResourcesValidationReport.txt
+│   │   │   ├── packaged_res
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   ├── public_res
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   ├── runtime_library_classes_dir
+│   │   │   │   └── debug
+│   │   │   │       └── bundleLibRuntimeToDirDebug
+│   │   │   │           └── com
+│   │   │   │               └── it_nomads
+│   │   │   │                   └── fluttersecurestorage
+│   │   │   │                       ├── BuildConfig.class
+│   │   │   │                       ├── FlutterSecureStorage.class
+│   │   │   │                       ├── FlutterSecureStoragePlugin$MethodResultWrapper.class
+│   │   │   │                       ├── FlutterSecureStoragePlugin$MethodRunner.class
+│   │   │   │                       ├── FlutterSecureStoragePlugin.class
+│   │   │   │                       └── ciphers
+│   │   │   └── symbol_list_with_package_name
+│   │   │       └── debug
+│   │   │           └── generateDebugRFile
+│   │   │               └── package-aware-r.txt
+│   │   ├── outputs
+│   │   │   ├── aar
+│   │   │   │   └── flutter_secure_storage-debug.aar
+│   │   │   └── logs
+│   │   │       └── manifest-merger-debug-report.txt
+│   │   └── tmp
+│   │       └── compileDebugJavaWithJavac
+│   │           └── previous-compilation-data.bin
+│   ├── last_build_run.json
+│   ├── native_assets
+│   │   └── android
+│   ├── path_provider_android
+│   │   ├── generated
+│   │   │   ├── ap_generated_sources
+│   │   │   │   └── debug
+│   │   │   │       └── out
+│   │   │   └── res
+│   │   │       ├── pngs
+│   │   │       │   └── debug
+│   │   │       └── resValues
+│   │   │           └── debug
+│   │   ├── intermediates
+│   │   │   ├── aapt_friendly_merged_manifests
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifest
+│   │   │   │           └── aapt
+│   │   │   │               ├── AndroidManifest.xml
+│   │   │   │               └── output-metadata.json
+│   │   │   ├── aar_libs_directory
+│   │   │   │   └── debug
+│   │   │   │       └── syncDebugLibJars
+│   │   │   │           └── libs
+│   │   │   ├── aar_main_jar
+│   │   │   │   └── debug
+│   │   │   │       └── syncDebugLibJars
+│   │   │   │           └── classes.jar
+│   │   │   ├── aar_metadata
+│   │   │   │   └── debug
+│   │   │   │       └── writeDebugAarMetadata
+│   │   │   │           └── aar-metadata.properties
+│   │   │   ├── annotation_processor_list
+│   │   │   │   └── debug
+│   │   │   │       └── javaPreCompileDebug
+│   │   │   │           └── annotationProcessors.json
+│   │   │   ├── annotations_typedef_file
+│   │   │   │   └── debug
+│   │   │   │       └── extractDebugAnnotations
+│   │   │   │           └── typedefs.txt
+│   │   │   ├── annotations_zip
+│   │   │   │   └── debug
+│   │   │   │       └── extractDebugAnnotations
+│   │   │   ├── assets
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugAssets
+│   │   │   ├── compile_library_classes_jar
+│   │   │   │   └── debug
+│   │   │   │       └── bundleLibCompileToJarDebug
+│   │   │   │           └── classes.jar
+│   │   │   ├── compile_r_class_jar
+│   │   │   │   └── debug
+│   │   │   │       └── generateDebugRFile
+│   │   │   │           └── R.jar
+│   │   │   ├── compile_symbol_list
+│   │   │   │   └── debug
+│   │   │   │       └── generateDebugRFile
+│   │   │   │           └── R.txt
+│   │   │   ├── compiled_local_resources
+│   │   │   │   └── debug
+│   │   │   │       └── compileDebugLibraryResources
+│   │   │   │           └── out
+│   │   │   ├── data_binding_layout_info_type_package
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   │           └── out
+│   │   │   ├── generated_proguard_file
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugGeneratedProguardFiles
+│   │   │   ├── incremental
+│   │   │   │   ├── debug
+│   │   │   │   │   └── packageDebugResources
+│   │   │   │   │       ├── compile-file-map.properties
+│   │   │   │   │       ├── merged.dir
+│   │   │   │   │       ├── merger.xml
+│   │   │   │   │       └── stripped.dir
+│   │   │   │   ├── debug-mergeJavaRes
+│   │   │   │   │   ├── merge-state
+│   │   │   │   │   └── zip-cache
+│   │   │   │   ├── mergeDebugAssets
+│   │   │   │   │   └── merger.xml
+│   │   │   │   ├── mergeDebugJniLibFolders
+│   │   │   │   │   └── merger.xml
+│   │   │   │   └── mergeDebugShaders
+│   │   │   │       └── merger.xml
+│   │   │   ├── javac
+│   │   │   │   └── debug
+│   │   │   │       └── compileDebugJavaWithJavac
+│   │   │   │           └── classes
+│   │   │   │               └── io
+│   │   │   │                   └── flutter
+│   │   │   │                       └── plugins
+│   │   │   ├── library_and_local_jars_jni
+│   │   │   │   └── debug
+│   │   │   │       └── copyDebugJniLibsProjectAndLocalJars
+│   │   │   │           └── jni
+│   │   │   ├── library_art_profile
+│   │   │   │   └── debug
+│   │   │   │       └── prepareDebugArtProfile
+│   │   │   ├── library_jni
+│   │   │   │   └── debug
+│   │   │   │       └── copyDebugJniLibsProjectOnly
+│   │   │   │           └── jni
+│   │   │   ├── lint_publish_jar
+│   │   │   │   └── global
+│   │   │   │       └── prepareLintJarForPublish
+│   │   │   ├── local_only_symbol_list
+│   │   │   │   └── debug
+│   │   │   │       └── parseDebugLocalResources
+│   │   │   │           └── R-def.txt
+│   │   │   ├── manifest_merge_blame_file
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifest
+│   │   │   │           └── manifest-merger-blame-debug-report.txt
+│   │   │   ├── merged_consumer_proguard_file
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugConsumerProguardFiles
+│   │   │   ├── merged_java_res
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugJavaResource
+│   │   │   │           └── feature-path_provider_android.jar
+│   │   │   ├── merged_jni_libs
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugJniLibFolders
+│   │   │   │           └── out
+│   │   │   ├── merged_manifest
+│   │   │   │   └── debug
+│   │   │   │       └── processDebugManifest
+│   │   │   │           └── AndroidManifest.xml
+│   │   │   ├── merged_shaders
+│   │   │   │   └── debug
+│   │   │   │       └── mergeDebugShaders
+│   │   │   │           └── out
+│   │   │   ├── navigation_json
+│   │   │   │   └── debug
+│   │   │   │       └── extractDeepLinksDebug
+│   │   │   │           └── navigation.json
+│   │   │   ├── navigation_json_for_aar
+│   │   │   │   └── debug
+│   │   │   │       └── extractDeepLinksForAarDebug
+│   │   │   ├── nested_resources_validation_report
+│   │   │   │   └── debug
+│   │   │   │       └── generateDebugResources
+│   │   │   │           └── nestedResourcesValidationReport.txt
+│   │   │   ├── packaged_res
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   ├── public_res
+│   │   │   │   └── debug
+│   │   │   │       └── packageDebugResources
+│   │   │   ├── runtime_library_classes_dir
+│   │   │   │   └── debug
+│   │   │   │       └── bundleLibRuntimeToDirDebug
+│   │   │   │           └── io
+│   │   │   │               └── flutter
+│   │   │   │                   └── plugins
+│   │   │   │                       └── pathprovider
+│   │   │   └── symbol_list_with_package_name
+│   │   │       └── debug
+│   │   │           └── generateDebugRFile
+│   │   │               └── package-aware-r.txt
+│   │   ├── outputs
+│   │   │   ├── aar
+│   │   │   │   └── path_provider_android-debug.aar
+│   │   │   └── logs
+│   │   │       └── manifest-merger-debug-report.txt
+│   │   └── tmp
+│   │       └── compileDebugJavaWithJavac
+│   │           └── previous-compilation-data.bin
+│   ├── reports
+│   │   └── problems
+│   │       └── problems-report.html
+│   └── shared_preferences_android
+│       ├── generated
+│       │   ├── ap_generated_sources
+│       │   │   └── debug
+│       │   │       └── out
+│       │   └── res
+│       │       ├── pngs
+│       │       │   └── debug
+│       │       └── resValues
+│       │           └── debug
+│       ├── intermediates
+│       │   ├── aapt_friendly_merged_manifests
+│       │   │   └── debug
+│       │   │       └── processDebugManifest
+│       │   │           └── aapt
+│       │   │               ├── AndroidManifest.xml
+│       │   │               └── output-metadata.json
+│       │   ├── aar_libs_directory
+│       │   │   └── debug
+│       │   │       └── syncDebugLibJars
+│       │   │           └── libs
+│       │   ├── aar_main_jar
+│       │   │   └── debug
+│       │   │       └── syncDebugLibJars
+│       │   │           └── classes.jar
+│       │   ├── aar_metadata
+│       │   │   └── debug
+│       │   │       └── writeDebugAarMetadata
+│       │   │           └── aar-metadata.properties
+│       │   ├── annotation_processor_list
+│       │   │   └── debug
+│       │   │       └── javaPreCompileDebug
+│       │   │           └── annotationProcessors.json
+│       │   ├── annotations_typedef_file
+│       │   │   └── debug
+│       │   │       └── extractDebugAnnotations
+│       │   │           └── typedefs.txt
+│       │   ├── annotations_zip
+│       │   │   └── debug
+│       │   │       └── extractDebugAnnotations
+│       │   ├── assets
+│       │   │   └── debug
+│       │   │       └── mergeDebugAssets
+│       │   ├── compile_library_classes_jar
+│       │   │   └── debug
+│       │   │       └── bundleLibCompileToJarDebug
+│       │   │           └── classes.jar
+│       │   ├── compile_r_class_jar
+│       │   │   └── debug
+│       │   │       └── generateDebugRFile
+│       │   │           └── R.jar
+│       │   ├── compile_symbol_list
+│       │   │   └── debug
+│       │   │       └── generateDebugRFile
+│       │   │           └── R.txt
+│       │   ├── compiled_local_resources
+│       │   │   └── debug
+│       │   │       └── compileDebugLibraryResources
+│       │   │           └── out
+│       │   ├── data_binding_layout_info_type_package
+│       │   │   └── debug
+│       │   │       └── packageDebugResources
+│       │   │           └── out
+│       │   ├── generated_proguard_file
+│       │   │   └── debug
+│       │   │       └── mergeDebugGeneratedProguardFiles
+│       │   ├── incremental
+│       │   │   ├── debug
+│       │   │   │   └── packageDebugResources
+│       │   │   │       ├── compile-file-map.properties
+│       │   │   │       ├── merged.dir
+│       │   │   │       ├── merger.xml
+│       │   │   │       └── stripped.dir
+│       │   │   ├── debug-mergeJavaRes
+│       │   │   │   ├── merge-state
+│       │   │   │   └── zip-cache
+│       │   │   ├── mergeDebugAssets
+│       │   │   │   └── merger.xml
+│       │   │   ├── mergeDebugJniLibFolders
+│       │   │   │   └── merger.xml
+│       │   │   └── mergeDebugShaders
+│       │   │       └── merger.xml
+│       │   ├── java_res
+│       │   │   └── debug
+│       │   │       └── processDebugJavaRes
+│       │   │           └── out
+│       │   │               ├── META-INF
+│       │   │               │   └── shared_preferences_android_debug.kotlin_module
+│       │   │               └── io
+│       │   │                   └── flutter
+│       │   │                       └── plugins
+│       │   ├── javac
+│       │   │   └── debug
+│       │   │       └── compileDebugJavaWithJavac
+│       │   │           └── classes
+│       │   │               └── io
+│       │   │                   └── flutter
+│       │   │                       └── plugins
+│       │   ├── library_and_local_jars_jni
+│       │   │   └── debug
+│       │   │       └── copyDebugJniLibsProjectAndLocalJars
+│       │   │           └── jni
+│       │   ├── library_art_profile
+│       │   │   └── debug
+│       │   │       └── prepareDebugArtProfile
+│       │   ├── library_jni
+│       │   │   └── debug
+│       │   │       └── copyDebugJniLibsProjectOnly
+│       │   │           └── jni
+│       │   ├── lint_publish_jar
+│       │   │   └── global
+│       │   │       └── prepareLintJarForPublish
+│       │   ├── local_only_symbol_list
+│       │   │   └── debug
+│       │   │       └── parseDebugLocalResources
+│       │   │           └── R-def.txt
+│       │   ├── manifest_merge_blame_file
+│       │   │   └── debug
+│       │   │       └── processDebugManifest
+│       │   │           └── manifest-merger-blame-debug-report.txt
+│       │   ├── merged_consumer_proguard_file
+│       │   │   └── debug
+│       │   │       └── mergeDebugConsumerProguardFiles
+│       │   ├── merged_java_res
+│       │   │   └── debug
+│       │   │       └── mergeDebugJavaResource
+│       │   │           └── feature-shared_preferences_android.jar
+│       │   ├── merged_jni_libs
+│       │   │   └── debug
+│       │   │       └── mergeDebugJniLibFolders
+│       │   │           └── out
+│       │   ├── merged_manifest
+│       │   │   └── debug
+│       │   │       └── processDebugManifest
+│       │   │           └── AndroidManifest.xml
+│       │   ├── merged_shaders
+│       │   │   └── debug
+│       │   │       └── mergeDebugShaders
+│       │   │           └── out
+│       │   ├── navigation_json
+│       │   │   └── debug
+│       │   │       └── extractDeepLinksDebug
+│       │   │           └── navigation.json
+│       │   ├── navigation_json_for_aar
+│       │   │   └── debug
+│       │   │       └── extractDeepLinksForAarDebug
+│       │   ├── nested_resources_validation_report
+│       │   │   └── debug
+│       │   │       └── generateDebugResources
+│       │   │           └── nestedResourcesValidationReport.txt
+│       │   ├── packaged_res
+│       │   │   └── debug
+│       │   │       └── packageDebugResources
+│       │   ├── public_res
+│       │   │   └── debug
+│       │   │       └── packageDebugResources
+│       │   ├── runtime_library_classes_dir
+│       │   │   └── debug
+│       │   │       └── bundleLibRuntimeToDirDebug
+│       │   │           ├── META-INF
+│       │   │           │   └── shared_preferences_android_debug.kotlin_module
+│       │   │           └── io
+│       │   │               └── flutter
+│       │   │                   └── plugins
+│       │   │                       └── sharedpreferences
+│       │   └── symbol_list_with_package_name
+│       │       └── debug
+│       │           └── generateDebugRFile
+│       │               └── package-aware-r.txt
+│       ├── kotlin
+│       │   └── compileDebugKotlin
+│       │       ├── cacheable
+│       │       │   ├── caches-jvm
+│       │       │   │   ├── inputs
+│       │       │   │   │   ├── source-to-output.tab
+│       │       │   │   │   ├── source-to-output.tab.keystream
+│       │       │   │   │   ├── source-to-output.tab.keystream.len
+│       │       │   │   │   ├── source-to-output.tab.len
+│       │       │   │   │   ├── source-to-output.tab.values.at
+│       │       │   │   │   ├── source-to-output.tab_i
+│       │       │   │   │   └── source-to-output.tab_i.len
+│       │       │   │   ├── jvm
+│       │       │   │   │   └── kotlin
+│       │       │   │   │       ├── class-attributes.tab
+│       │       │   │   │       ├── class-attributes.tab.keystream
+│       │       │   │   │       ├── class-attributes.tab.keystream.len
+│       │       │   │   │       ├── class-attributes.tab.len
+│       │       │   │   │       ├── class-attributes.tab.values.at
+│       │       │   │   │       ├── class-attributes.tab_i
+│       │       │   │   │       ├── class-attributes.tab_i.len
+│       │       │   │   │       ├── class-fq-name-to-source.tab
+│       │       │   │   │       ├── class-fq-name-to-source.tab.keystream
+│       │       │   │   │       ├── class-fq-name-to-source.tab.keystream.len
+│       │       │   │   │       ├── class-fq-name-to-source.tab.len
+│       │       │   │   │       ├── class-fq-name-to-source.tab.values.at
+│       │       │   │   │       ├── class-fq-name-to-source.tab_i
+│       │       │   │   │       ├── class-fq-name-to-source.tab_i.len
+│       │       │   │   │       ├── constants.tab
+│       │       │   │   │       ├── constants.tab.keystream
+│       │       │   │   │       ├── constants.tab.keystream.len
+│       │       │   │   │       ├── constants.tab.len
+│       │       │   │   │       ├── constants.tab.values.at
+│       │       │   │   │       ├── constants.tab_i
+│       │       │   │   │       ├── constants.tab_i.len
+│       │       │   │   │       ├── internal-name-to-source.tab
+│       │       │   │   │       ├── internal-name-to-source.tab.keystream
+│       │       │   │   │       ├── internal-name-to-source.tab.keystream.len
+│       │       │   │   │       ├── internal-name-to-source.tab.len
+│       │       │   │   │       ├── internal-name-to-source.tab.values.at
+│       │       │   │   │       ├── internal-name-to-source.tab_i
+│       │       │   │   │       ├── internal-name-to-source.tab_i.len
+│       │       │   │   │       ├── package-parts.tab
+│       │       │   │   │       ├── package-parts.tab.keystream
+│       │       │   │   │       ├── package-parts.tab.keystream.len
+│       │       │   │   │       ├── package-parts.tab.len
+│       │       │   │   │       ├── package-parts.tab.values.at
+│       │       │   │   │       ├── package-parts.tab_i
+│       │       │   │   │       ├── package-parts.tab_i.len
+│       │       │   │   │       ├── proto.tab
+│       │       │   │   │       ├── proto.tab.keystream
+│       │       │   │   │       ├── proto.tab.keystream.len
+│       │       │   │   │       ├── proto.tab.len
+│       │       │   │   │       ├── proto.tab.values.at
+│       │       │   │   │       ├── proto.tab_i
+│       │       │   │   │       ├── proto.tab_i.len
+│       │       │   │   │       ├── source-to-classes.tab
+│       │       │   │   │       ├── source-to-classes.tab.keystream
+│       │       │   │   │       ├── source-to-classes.tab.keystream.len
+│       │       │   │   │       ├── source-to-classes.tab.len
+│       │       │   │   │       ├── source-to-classes.tab.values.at
+│       │       │   │   │       ├── source-to-classes.tab_i
+│       │       │   │   │       ├── source-to-classes.tab_i.len
+│       │       │   │   │       ├── subtypes.tab
+│       │       │   │   │       ├── subtypes.tab.keystream
+│       │       │   │   │       ├── subtypes.tab.keystream.len
+│       │       │   │   │       ├── subtypes.tab.len
+│       │       │   │   │       ├── subtypes.tab.values.at
+│       │       │   │   │       ├── subtypes.tab_i
+│       │       │   │   │       ├── subtypes.tab_i.len
+│       │       │   │   │       ├── supertypes.tab
+│       │       │   │   │       ├── supertypes.tab.keystream
+│       │       │   │   │       ├── supertypes.tab.keystream.len
+│       │       │   │   │       ├── supertypes.tab.len
+│       │       │   │   │       ├── supertypes.tab.values.at
+│       │       │   │   │       ├── supertypes.tab_i
+│       │       │   │   │       └── supertypes.tab_i.len
+│       │       │   │   └── lookups
+│       │       │   │       ├── counters.tab
+│       │       │   │       ├── file-to-id.tab
+│       │       │   │       ├── file-to-id.tab.keystream
+│       │       │   │       ├── file-to-id.tab.keystream.len
+│       │       │   │       ├── file-to-id.tab.len
+│       │       │   │       ├── file-to-id.tab.values.at
+│       │       │   │       ├── file-to-id.tab_i
+│       │       │   │       ├── file-to-id.tab_i.len
+│       │       │   │       ├── id-to-file.tab
+│       │       │   │       ├── id-to-file.tab.keystream
+│       │       │   │       ├── id-to-file.tab.keystream.len
+│       │       │   │       ├── id-to-file.tab.len
+│       │       │   │       ├── id-to-file.tab.values.at
+│       │       │   │       ├── id-to-file.tab_i
+│       │       │   │       ├── id-to-file.tab_i.len
+│       │       │   │       ├── lookups.tab
+│       │       │   │       ├── lookups.tab.keystream
+│       │       │   │       ├── lookups.tab.keystream.len
+│       │       │   │       ├── lookups.tab.len
+│       │       │   │       ├── lookups.tab.values.at
+│       │       │   │       ├── lookups.tab_i
+│       │       │   │       └── lookups.tab_i.len
+│       │       │   └── last-build.bin
+│       │       ├── classpath-snapshot
+│       │       │   └── shrunk-classpath-snapshot.bin
+│       │       └── local-state
+│       │           └── build-history.bin
+│       ├── outputs
+│       │   ├── aar
+│       │   │   └── shared_preferences_android-debug.aar
+│       │   └── logs
+│       │       └── manifest-merger-debug-report.txt
+│       └── tmp
+│           ├── compileDebugJavaWithJavac
+│           │   └── previous-compilation-data.bin
+│           └── kotlin-classes
+│               └── debug
+│                   ├── META-INF
+│                   │   └── shared_preferences_android_debug.kotlin_module
+│                   └── io
+│                       └── flutter
+│                           └── plugins
+│                               └── sharedpreferences
+│                                   ├── ListEncoder.class
+│                                   ├── MessagesAsyncPigeonCodec.class
+│                                   ├── MessagesAsync_gKt.class
+│                                   ├── SharedPreferencesAsyncApi$Companion.class
+│                                   ├── SharedPreferencesAsyncApi.class
+│                                   ├── SharedPreferencesBackend.class
+│                                   ├── SharedPreferencesError.class
+│                                   ├── SharedPreferencesPigeonOptions$Companion.class
+│                                   ├── SharedPreferencesPigeonOptions.class
+│                                   ├── SharedPreferencesPlugin$clear$1$1.class
+│                                   ├── SharedPreferencesPlugin$clear$1.class
+│                                   ├── SharedPreferencesPlugin$dataStoreSetString$2.class
+│                                   ├── SharedPreferencesPlugin$getAll$1.class
+│                                   ├── SharedPreferencesPlugin$getBool$1$invokeSuspend$$inlined$map$1$2$1.class
+│                                   ├── SharedPreferencesPlugin$getBool$1$invokeSuspend$$inlined$map$1$2.class
+│                                   ├── SharedPreferencesPlugin$getBool$1$invokeSuspend$$inlined$map$1.class
+│                                   ├── SharedPreferencesPlugin$getBool$1.class
+│                                   ├── SharedPreferencesPlugin$getDouble$1$invokeSuspend$$inlined$map$1$2$1.class
+│                                   ├── SharedPreferencesPlugin$getDouble$1$invokeSuspend$$inlined$map$1$2.class
+│                                   ├── SharedPreferencesPlugin$getDouble$1$invokeSuspend$$inlined$map$1.class
+│                                   ├── SharedPreferencesPlugin$getDouble$1.class
+│                                   ├── SharedPreferencesPlugin$getInt$1$invokeSuspend$$inlined$map$1$2$1.class
+│                                   ├── SharedPreferencesPlugin$getInt$1$invokeSuspend$$inlined$map$1$2.class
+│                                   ├── SharedPreferencesPlugin$getInt$1$invokeSuspend$$inlined$map$1.class
+│                                   ├── SharedPreferencesPlugin$getInt$1.class
+│                                   ├── SharedPreferencesPlugin$getKeys$prefs$1.class
+│                                   ├── SharedPreferencesPlugin$getPrefs$1.class
+│                                   ├── SharedPreferencesPlugin$getString$1$invokeSuspend$$inlined$map$1$2$1.class
+│                                   ├── SharedPreferencesPlugin$getString$1$invokeSuspend$$inlined$map$1$2.class
+│                                   ├── SharedPreferencesPlugin$getString$1$invokeSuspend$$inlined$map$1.class
+│                                   ├── SharedPreferencesPlugin$getString$1.class
+│                                   ├── SharedPreferencesPlugin$getValueByKey$$inlined$map$1$2$1.class
+│                                   ├── SharedPreferencesPlugin$getValueByKey$$inlined$map$1$2.class
+│                                   ├── SharedPreferencesPlugin$getValueByKey$$inlined$map$1.class
+│                                   ├── SharedPreferencesPlugin$readAllKeys$$inlined$map$1$2$1.class
+│                                   ├── SharedPreferencesPlugin$readAllKeys$$inlined$map$1$2.class
+│                                   ├── SharedPreferencesPlugin$readAllKeys$$inlined$map$1.class
+│                                   ├── SharedPreferencesPlugin$setBool$1$1.class
+│                                   ├── SharedPreferencesPlugin$setBool$1.class
+│                                   ├── SharedPreferencesPlugin$setDeprecatedStringList$1.class
+│                                   ├── SharedPreferencesPlugin$setDouble$1$1.class
+│                                   ├── SharedPreferencesPlugin$setDouble$1.class
+│                                   ├── SharedPreferencesPlugin$setEncodedStringList$1.class
+│                                   ├── SharedPreferencesPlugin$setInt$1$1.class
+│                                   ├── SharedPreferencesPlugin$setInt$1.class
+│                                   ├── SharedPreferencesPlugin$setString$1.class
+│                                   ├── SharedPreferencesPlugin.class
+│                                   ├── SharedPreferencesPluginKt.class
+│                                   ├── StringListLookupResultType$Companion.class
+│                                   ├── StringListLookupResultType.class
+│                                   ├── StringListObjectInputStream.class
+│                                   ├── StringListResult$Companion.class
+│                                   └── StringListResult.class
 ├── digital_desa.iml
 ├── ios
 │   ├── Flutter
@@ -102,7 +1859,9 @@
 │   │   │   ├── contents.xcworkspacedata
 │   │   │   └── xcshareddata
 │   │   │       ├── IDEWorkspaceChecks.plist
-│   │   │       └── WorkspaceSettings.xcsettings
+│   │   │       ├── WorkspaceSettings.xcsettings
+│   │   │       └── swiftpm
+│   │   │           └── configuration
 │   │   └── xcshareddata
 │   │       └── xcschemes
 │   │           └── Runner.xcscheme
@@ -110,7 +1869,9 @@
 │   │   ├── contents.xcworkspacedata
 │   │   └── xcshareddata
 │   │       ├── IDEWorkspaceChecks.plist
-│   │       └── WorkspaceSettings.xcsettings
+│   │       ├── WorkspaceSettings.xcsettings
+│   │       └── swiftpm
+│   │           └── configuration
 │   └── RunnerTests
 │       └── RunnerTests.swift
 ├── lib
@@ -152,35 +1913,34 @@
 │   │       ├── login_usecase.dart
 │   │       └── logout_usecase.dart
 │   ├── main.dart
-│   ├── presentation
-│   │   ├── common
-│   │   │   ├── navigation
-│   │   │   └── widgets
-│   │   ├── features
-│   │   │   ├── auth
-│   │   │   │   ├── forgot_password
-│   │   │   │   │   └── forgot_password_page.dart
-│   │   │   │   └── login
-│   │   │   │       ├── bloc
-│   │   │   │       │   ├── auth_bloc.dart
-│   │   │   │       │   ├── auth_event.dart
-│   │   │   │       │   └── auth_state.dart
-│   │   │   │       ├── page
-│   │   │   │       │   └── login_page.dart
-│   │   │   │       └── widgets
-│   │   │   ├── home
-│   │   │   │   └── home_page.dart
-│   │   │   ├── profile
-│   │   │   │   └── profile_page.dart
-│   │   │   └── surat
-│   │   │       └── surat_page.dart
-│   │   └── root
-│   │       └── root_page.dart
-│   └── resources
-│       ├── fonts
-│       ├── icons
-│       ├── images
-│       └── strings
+│   └── presentation
+│       ├── common
+│       │   ├── navigation
+│       │   └── widgets
+│       ├── features
+│       │   ├── auth
+│       │   │   ├── forgot_password
+│       │   │   │   └── forgot_password_page.dart
+│       │   │   └── login
+│       │   │       ├── bloc
+│       │   │       │   ├── auth_bloc.dart
+│       │   │       │   ├── auth_event.dart
+│       │   │       │   └── auth_state.dart
+│       │   │       ├── page
+│       │   │       │   └── login_page.dart
+│       │   │       └── widgets
+│       │   │           ├── custom_text_field.dart
+│       │   │           ├── login_form.dart
+│       │   │           ├── social_login_button.dart
+│       │   │           └── village_illustration.dart
+│       │   ├── home
+│       │   │   └── home_page.dart
+│       │   ├── profile
+│       │   │   └── profile_page.dart
+│       │   └── surat
+│       │       └── surat_page.dart
+│       └── root
+│           └── root_page.dart
 ├── linux
 │   ├── CMakeLists.txt
 │   ├── flutter
@@ -230,18 +1990,35 @@
 │   │   ├── project.pbxproj
 │   │   ├── project.xcworkspace
 │   │   │   └── xcshareddata
-│   │   │       └── IDEWorkspaceChecks.plist
+│   │   │       ├── IDEWorkspaceChecks.plist
+│   │   │       └── swiftpm
+│   │   │           └── configuration
 │   │   └── xcshareddata
 │   │       └── xcschemes
 │   │           └── Runner.xcscheme
 │   ├── Runner.xcworkspace
 │   │   ├── contents.xcworkspacedata
 │   │   └── xcshareddata
-│   │       └── IDEWorkspaceChecks.plist
+│   │       ├── IDEWorkspaceChecks.plist
+│   │       └── swiftpm
+│   │           └── configuration
 │   └── RunnerTests
 │       └── RunnerTests.swift
 ├── pubspec.lock
 ├── pubspec.yaml
+├── resources
+│   ├── fonts
+│   ├── icons
+│   │   ├── aktivitas_active.svg
+│   │   ├── aktivitas_inactive.svg
+│   │   ├── beranda_active.svg
+│   │   ├── beranda_inactive.svg
+│   │   ├── login.svg
+│   │   ├── profil_active.svg
+│   │   └── profil_inactive.svg
+│   ├── images
+│   │   └── village_illustration.png
+│   └── strings
 ├── structure_full.txt
 ├── test
 │   └── widget_test.dart
@@ -277,4 +2054,4 @@
         ├── win32_window.cpp
         └── win32_window.h
 
-112 directories, 166 files
+1008 directories, 1047 files

@@ -6,8 +6,8 @@ import '../../../domain/entities/user_entity.dart';
 import '../../../domain/repositories/auth_repository.dart';
 import '../../mappers/user_mapper.dart';
 import '../apis/auth_api.dart';
-import '../dtos/login_request_dto.dart';
-import '../dtos/login_response_dto.dart';
+import '../dtos/auth/login/login_request_dto.dart';
+import '../dtos/auth/login/login_response_dto.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final AuthApi authApi;
@@ -21,24 +21,23 @@ class AuthRepositoryImpl implements AuthRepository {
   });
 
   @override
-  Future<UserEntity> login(String email, String password, String kodeLisensi) async {
+  Future<UserEntity> login(String email, String password) async {
     try {
       final request = LoginRequestDto(
         email: email,
         password: password,
-        kodeLisensi: kodeLisensi,
       );
       final response = await authApi.login(request);
 
       // Save token (format: token:kode_lisensi)
       await secureStorage.saveToken(response.token);
-      await secureStorage.saveUserId(response.user.id);
+      await secureStorage.saveUserId(response.data.id);
 
       // Save user data
-      await localStorage.saveUserData(jsonEncode(response.user.toJson()));
+      await localStorage.saveUserData(jsonEncode(response.data.toJson()));
       await localStorage.setLoggedIn(true);
 
-      return UserMapper.fromDto(response.user);
+      return UserMapper.fromDto(response.data);
     } catch (e) {
       rethrow;
     }
@@ -64,7 +63,7 @@ class AuthRepositoryImpl implements AuthRepository {
 
       final userData = jsonDecode(userDataJson);
       return UserMapper.fromDto(
-        UserDto.fromJson(userData as Map<String, dynamic>),
+        UserDataDto.fromJson(userData as Map<String, dynamic>),
       );
     } catch (e) {
       return null;

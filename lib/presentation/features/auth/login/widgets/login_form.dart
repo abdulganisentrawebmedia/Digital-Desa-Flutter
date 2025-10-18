@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../../../app/router/app_router.dart';
 import '../../../../../app/theme/app_theme.dart';
@@ -138,13 +139,16 @@ class LoginForm extends StatelessWidget {
                   Colors.white,
                 ),
               ),
-            )
-                : Row(
+            ) : Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                Icon(Icons.login, size: 20),
-                SizedBox(width: 8),
-                Text(
+              children: [
+                SvgPicture.asset(
+                  'resources/icons/login.svg',
+                  width: 20,
+                  height: 20,
+                ),
+                const SizedBox(width: 8),
+                const Text(
                   'Masuk Akun',
                   style: TextStyle(
                     fontSize: 16,

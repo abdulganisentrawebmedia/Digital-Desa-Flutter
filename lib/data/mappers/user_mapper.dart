@@ -1,8 +1,8 @@
 import '../../domain/entities/user_entity.dart';
-import '../remote/dtos/login_response_dto.dart';
+import '../remote/dtos/auth/login/login_response_dto.dart';
 
 class UserMapper {
-  static UserEntity fromDto(UserDto dto) {
+  static UserEntity fromDto(UserDataDto dto) {
     return UserEntity(
       id: dto.id,
       namaWarga: dto.namaWarga,
@@ -20,8 +20,8 @@ class UserMapper {
     );
   }
 
-  static UserDto toDto(UserEntity entity) {
-    return UserDto(
+  static UserDataDto toDto(UserEntity entity) {
+    return UserDataDto(
       id: entity.id,
       namaWarga: entity.namaWarga,
       nik: entity.nik,
@@ -35,6 +35,8 @@ class UserMapper {
       tanggalLahir: entity.tanggalLahir,
       noKk: entity.noKk,
       statusHubungan: entity.statusHubungan,
+      createdAt: '',
+      updatedAt: '',
     );
   }
 }

@@ -1,3 +1,7 @@
+import 'package:digital_desa/data/remote/apis/user_api.dart';
+import 'package:digital_desa/data/remote/repositories_impl/user_repository_impl.dart';
+import 'package:digital_desa/domain/repositories/user_repository.dart';
+import 'package:digital_desa/domain/usecases/get_user_info_usecase.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -12,6 +16,7 @@ import '../../domain/repositories/auth_repository.dart';
 import '../../domain/usecases/login_usecase.dart';
 import '../../domain/usecases/logout_usecase.dart';
 import '../../presentation/features/auth/login/bloc/auth_bloc.dart';
+import '../../presentation/features/home/bloc/home_bloc.dart';
 
 final getIt = GetIt.instance;
 
@@ -40,6 +45,7 @@ Future<void> configureDependencies() async {
 
   // APIs
   getIt.registerLazySingleton<AuthApi>(() => AuthApi(getIt<Dio>()));
+  getIt.registerLazySingleton<UserApi>(() => UserApi(getIt<Dio>()));
 
   // Repositories
   getIt.registerLazySingleton<AuthRepository>(
@@ -49,16 +55,27 @@ Future<void> configureDependencies() async {
       localStorage: getIt<LocalStorage>(),
     ),
   );
+  getIt.registerLazySingleton<UserRepository>(
+        () => UserRepositoryImpl(
+            userApi: getIt<UserApi>()
+    ),
+  );
 
   // Use Cases
   getIt.registerLazySingleton(() => LoginUseCase(getIt<AuthRepository>()));
   getIt.registerLazySingleton(() => LogoutUseCase(getIt<AuthRepository>()));
+  getIt.registerLazySingleton(() => GetUserInfoUseCase(getIt<UserRepository>()));
 
   // Blocs
   getIt.registerFactory(
         () => AuthBloc(
       loginUseCase: getIt<LoginUseCase>(),
       logoutUseCase: getIt<LogoutUseCase>(),
+    ),
+  );
+  getIt.registerFactory(
+        () => HomeBloc(
+            getUserInfoUseCase: getIt<GetUserInfoUseCase>()
     ),
   );
 }

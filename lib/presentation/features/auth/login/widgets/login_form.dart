@@ -38,9 +38,6 @@ class LoginForm extends StatelessWidget {
               if (value == null || value.isEmpty) {
                 return 'Email harus diisi';
               }
-              if (!value.contains('@')) {
-                return 'Email tidak valid';
-              }
               return null;
             },
           ),

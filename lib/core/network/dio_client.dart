@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 import '../constants/api_constants.dart';
@@ -17,6 +19,10 @@ class DioClient {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
+        validateStatus: (status) {
+          // Accept all status codes (don't throw on 4xx, 5xx)
+          return status != null && status < 600;
+        },
       ),
     );
 
@@ -34,10 +40,11 @@ class DioClient {
 
     dio.interceptors.add(
       InterceptorsWrapper(
+        // Di DioClient interceptor
         onRequest: (options, handler) async {
-          // Add token if available
           if (secureStorage != null) {
             final token = await secureStorage!.getToken();
+            print('🔑 Token untuk request: ${token?.substring(0, 20)}...');
             if (token != null && token.isNotEmpty) {
               options.headers['Authorization'] = 'Bearer $token';
             }

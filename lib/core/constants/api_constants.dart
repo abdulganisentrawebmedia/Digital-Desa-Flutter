@@ -1,5 +1,6 @@
 class ApiConstants {
-  static const String baseUrl = 'https://devsuperadmin-digitaldesa.avnet.id';
+  // static const String baseUrl = 'https://devsuperadmin-digitaldesa.avnet.id';
+  static const String baseUrl = 'https://prod-client.avnet.id';
 
   // ======================
   // AUTH ENDPOINTS

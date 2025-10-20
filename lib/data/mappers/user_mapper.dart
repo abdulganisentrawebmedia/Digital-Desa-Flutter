@@ -6,38 +6,38 @@ class UserMapper {
   // Untuk UserDataDto (dari Login)
   static UserEntity fromDto(UserDataDto dto) {
     return UserEntity(
-      id: dto.id,
-      namaWarga: dto.namaWarga,
-      nik: dto.nik,
-      email: dto.email,
-      alamat: dto.alamat,
-      noTelp: dto.noTelp,
-      isActive: dto.isActive,
-      jenisKelamin: dto.jenisKelamin,
+      id: dto.id ?? '',
+      namaWarga: dto.namaWarga ?? '',
+      nik: dto.nik ?? '',
+      email: dto.email ?? '',
+      alamat: dto.alamat ?? '',
+      noTelp: dto.noTelp ?? '',
+      isActive: dto.isActive ?? false,
+      jenisKelamin: dto.jenisKelamin ?? '',
       photo: dto.photo,
-      tempatLahir: dto.tempatLahir,
-      tanggalLahir: dto.tanggalLahir,
-      noKk: dto.noKk,
-      statusHubungan: dto.statusHubungan,
+      tempatLahir: dto.tempatLahir ?? '',
+      tanggalLahir: dto.tanggalLahir ?? '',
+      noKk: dto.noKk ?? '',
+      statusHubungan: dto.statusHubungan ?? '',
     );
   }
 
   // Untuk UserInfoDataDto (dari getUserInfo)
   static UserEntity fromInfoDto(UserInfoDataDto dto) {
     return UserEntity(
-      id: dto.id,
-      namaWarga: dto.namaWarga,
-      nik: dto.nik,
-      email: dto.email,
-      alamat: dto.alamat,
-      noTelp: dto.noTelp,
-      isActive: dto.isActive,
-      jenisKelamin: dto.jenisKelamin,
+      id: dto.id ?? '',
+      namaWarga: dto.namaWarga ?? '',
+      nik: dto.nik ?? '',
+      email: dto.email ?? '',
+      alamat: dto.alamat ?? '',
+      noTelp: dto.noTelp ?? '',
+      isActive: dto.isActive ?? false,
+      jenisKelamin: dto.jenisKelamin ?? '',
       photo: dto.photo,
-      tempatLahir: dto.tempatLahir,
-      tanggalLahir: dto.tanggalLahir,
-      noKk: dto.noKk,
-      statusHubungan: dto.statusHubungan,
+      tempatLahir: dto.tempatLahir ?? '',
+      tanggalLahir: dto.tanggalLahir ?? '',
+      noKk: dto.noKk ?? '',
+      statusHubungan: dto.statusHubungan ?? '',
     );
   }
 

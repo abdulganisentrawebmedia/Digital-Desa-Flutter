@@ -11,68 +11,68 @@ class UserInfoResponseDto {
 }
 
 class UserInfoDataDto {
-  final String agama;
-  final String agamaId;
-  final String alamat;
-  final String createdAt;
+  final String? agama;
+  final String? agamaId;
+  final String? alamat;
+  final String? createdAt;
   final String? deletedAt;
   final String? disabilitasId;
-  final String dusun;
-  final String email;
-  final String golonganDarah;
-  final String id;
-  final bool isActive;
-  final String jenisKelamin;
-  final String kewarganegaraan;
-  final String namaWarga;
-  final String nik;
-  final String noKk;
-  final String noTelp;
-  final String pekerjaan;
+  final String? dusun;
+  final String? email;
+  final String? golonganDarah;
+  final String? id;
+  final bool? isActive;
+  final String? jenisKelamin;
+  final String? kewarganegaraan;
+  final String? namaWarga;
+  final String? nik;
+  final String? noKk;
+  final String? noTelp;
+  final String? pekerjaan;
   final String? pekerjaanId;
-  final String pendidikan;
+  final String? pendidikan;
   final String? pendidikanId;
   final String? photo;
-  final String rt;
-  final String rw;
-  final String statusHubungan;
-  final String statusKawin;
+  final String? rt;
+  final String? rw;
+  final String? statusHubungan;
+  final String? statusKawin;
   final String? statusKawinId;
-  final String tanggalLahir;
-  final String tempatLahir;
-  final String updatedAt;
+  final String? tanggalLahir;
+  final String? tempatLahir;
+  final String? updatedAt;
 
   UserInfoDataDto({
-    required this.agama,
-    required this.agamaId,
-    required this.alamat,
-    required this.createdAt,
+    this.agama,
+    this.agamaId,
+    this.alamat,
+    this.createdAt,
     this.deletedAt,
     this.disabilitasId,
-    required this.dusun,
-    required this.email,
-    required this.golonganDarah,
-    required this.id,
-    required this.isActive,
-    required this.jenisKelamin,
-    required this.kewarganegaraan,
-    required this.namaWarga,
-    required this.nik,
-    required this.noKk,
-    required this.noTelp,
-    required this.pekerjaan,
+    this.dusun,
+    this.email,
+    this.golonganDarah,
+    this.id,
+    this.isActive,
+    this.jenisKelamin,
+    this.kewarganegaraan,
+    this.namaWarga,
+    this.nik,
+    this.noKk,
+    this.noTelp,
+    this.pekerjaan,
     this.pekerjaanId,
-    required this.pendidikan,
+    this.pendidikan,
     this.pendidikanId,
     this.photo,
-    required this.rt,
-    required this.rw,
-    required this.statusHubungan,
-    required this.statusKawin,
+    this.rt,
+    this.rw,
+    this.statusHubungan,
+    this.statusKawin,
     this.statusKawinId,
-    required this.tanggalLahir,
-    required this.tempatLahir,
-    required this.updatedAt,
+    this.tanggalLahir,
+    this.tempatLahir,
+    this.updatedAt,
   });
 
   factory UserInfoDataDto.fromJson(Map<String, dynamic> json) {

@@ -21,50 +21,22 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
-  final _licenseController = TextEditingController();
-  bool _showLicenseField = true;
   LocalStorage? _localStorage;
 
-  @override
-  void initState() {
-    super.initState();
-    _checkLicenseCode();
-  }
-
-  Future<void> _checkLicenseCode() async {
-    final localStorage = context.read<LocalStorage>();
-    _localStorage = localStorage;
-
-    final hasLicense = localStorage.hasLicenseCode();
-    final savedLicense = localStorage.getLicenseCode();
-
-    setState(() {
-      _showLicenseField = !hasLicense;
-      if (hasLicense && savedLicense != null) {
-        _licenseController.text = savedLicense;
-      }
-    });
-  }
 
   @override
   void dispose() {
     _emailController.dispose();
     _passwordController.dispose();
-    _licenseController.dispose();
     super.dispose();
   }
 
   void _login() {
     if (_formKey.currentState!.validate()) {
-      final licenseCode = _showLicenseField
-          ? _licenseController.text.trim()
-          : _localStorage?.getLicenseCode() ?? '';
-
       context.read<AuthBloc>().add(
         LoginRequested(
           email: _emailController.text.trim(),
-          password: _passwordController.text,
-          kodeLisensi: licenseCode,
+          password: _passwordController.text
         ),
       );
     }
@@ -77,9 +49,6 @@ class _LoginPageState extends State<LoginPage> {
       body: BlocListener<AuthBloc, AuthState>(
         listener: (context, state) {
           if (state is AuthSuccess) {
-            if (_showLicenseField && _licenseController.text.isNotEmpty) {
-              _localStorage?.saveLicenseCode(_licenseController.text.trim());
-            }
             context.go(AppRouter.root);
           } else if (state is AuthFailure) {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -111,8 +80,6 @@ class _LoginPageState extends State<LoginPage> {
                     formKey: _formKey,
                     emailController: _emailController,
                     passwordController: _passwordController,
-                    licenseController: _licenseController,
-                    showLicenseField: _showLicenseField,
                     onLogin: _login,
                   ),
                   const SizedBox(height: 16),

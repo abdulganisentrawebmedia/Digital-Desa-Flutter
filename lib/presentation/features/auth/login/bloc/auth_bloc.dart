@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../domain/entities/user_entity.dart';
+import '../../../../../domain/results/auth/login_result.dart';
 import '../../../../../domain/usecases/login_usecase.dart';
 import '../../../../../domain/usecases/logout_usecase.dart';
 
@@ -29,7 +29,6 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       final user = await loginUseCase(
         event.email,
         event.password,
-        event.kodeLisensi,
       );
       emit(AuthSuccess(user));
     } catch (e) {

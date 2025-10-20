@@ -12,8 +12,6 @@ class LoginForm extends StatelessWidget {
   final GlobalKey<FormState> formKey;
   final TextEditingController emailController;
   final TextEditingController passwordController;
-  final TextEditingController licenseController;
-  final bool showLicenseField;
   final VoidCallback onLogin;
 
   const LoginForm({
@@ -21,8 +19,6 @@ class LoginForm extends StatelessWidget {
     required this.formKey,
     required this.emailController,
     required this.passwordController,
-    required this.licenseController,
-    required this.showLicenseField,
     required this.onLogin,
   });
 
@@ -33,25 +29,6 @@ class LoginForm extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          if (showLicenseField) ...[
-            CustomTextField(
-              label: 'Kode Lisensi',
-              controller: licenseController,
-              hintText: 'Masukkan kode lisensi',
-              keyboardType: TextInputType.text,
-              textCapitalization: TextCapitalization.characters,
-              validator: (value) {
-                if (value == null || value.isEmpty) {
-                  return 'Kode lisensi harus diisi';
-                }
-                if (value.length < 10) {
-                  return 'Kode lisensi tidak valid';
-                }
-                return null;
-              },
-            ),
-            const SizedBox(height: 16),
-          ],
           CustomTextField(
             label: 'Email / Nomor Telepon',
             controller: emailController,

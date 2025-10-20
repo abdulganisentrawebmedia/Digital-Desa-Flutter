@@ -117,4 +117,40 @@ class UserDataDto {
       verifiedBy: json['verified_by'],
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'nama_warga': namaWarga,
+      'email': email,
+      'nik': nik,
+      'no_kk': noKk,
+      'no_telp': noTelp,
+      'alamat': alamat,
+      'jenis_kelamin': jenisKelamin,
+      'tempat_lahir': tempatLahir,
+      'tanggal_lahir': tanggalLahir,
+      'agama_id': agamaId,
+      'pendidikan_id': pendidikanId,
+      'pekerjaan_id': pekerjaanId,
+      'suku_id': sukuId,
+      'status_hubungan': statusHubungan,
+      'status_kawin_id': statusKawinId,
+      'kewarganegaraan': kewarganegaraan,
+      'golongan_darah': golonganDarah,
+      'disabilitas_id': disabilitasId,
+      'photo': photo,
+      'is_active': isActive,
+      'created_at': createdAt,
+      'updated_at': updatedAt,
+      'deleted_at': deletedAt,
+      'no_paspor': noPaspor,
+      'no_kitap': noKitap,
+      'nama_ayah': namaAyah,
+      'nama_ibu': namaIbu,
+      'tanggal_perkawinan': tanggalPerkawinan,
+      'verified_at': verifiedAt,
+      'verified_by': verifiedBy,
+    };
+  }
 }

@@ -1,3 +1,5 @@
+import 'package:digital_desa/domain/results/auth/logout_result.dart';
+
 import '../repositories/auth_repository.dart';
 
 class LogoutUseCase {
@@ -5,7 +7,7 @@ class LogoutUseCase {
 
   LogoutUseCase(this._repository);
 
-  Future<void> call() async {
+  Future<LogoutResult> call() async {
     return await _repository.logout();
   }
 }
